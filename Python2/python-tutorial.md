@@ -41,8 +41,9 @@ Python由Guido van Rossum于1989年底发明，第一个公开发行版发行于
 实例(Python 2.0+)
 ---------------
 
+```python
 #!/usr/bin/python  print  "Hello, World!";
-
+```
   
 [运行实例 »](http://www.runoob.com/try/runcode.php?filename=HelloWorld&type=python)
 
@@ -51,14 +52,15 @@ Python 3.0+版本已经把print作为一个内置函数，正确输出"Hello Wor
 实例(Python 3.0+)
 ---------------
 
+```python
 #!/usr/bin/python3  print("Hello, World!");
-
+```
   
 [运行实例 »](http://www.runoob.com/try/runcode.php?filename=HelloWorld&type=python3)
 
 * * *
 
-相关文章
+相关文章
 -----
 
 [Python2.7.14 中文手册](../manual/pythontutorial/docs/html/index.html)
