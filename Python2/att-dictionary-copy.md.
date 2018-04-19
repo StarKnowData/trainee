@@ -56,7 +56,3 @@ New Dictinary : {'Age': 7, 'Name': 'Zara'}
 {'num': \[2, 3\], 'user': 'root'}
 {'num': \[2, 3\], 'user': 'root'}
 {'num': \[2, 3\], 'user': 'runoob'}
-
-### 知识扩展
-
-[Python 直接赋值、浅拷贝和深度拷贝解析](../w3cnote/python-understanding-dict-copy-shallow-or-deep.html)
