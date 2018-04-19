@@ -1,58 +1,48 @@
-Python 字典(Dictionary) copy()方法
-==============================
+Python List pop()方法
+===================
+
+ [![Python 列表](../images/up.gif) Python 列表](python-lists.html)
 
 * * *
 
 描述
 --
 
-Python 字典(Dictionary) copy() 函数返回一个字典的浅复制。
+pop() 函数用于移除列表中的一个元素（默认最后一个元素），并且返回该元素的值。
 
 语法
 --
 
-copy()方法语法：
-
-dict.copy()
-
+pop()方法语法：
+```
+list.pop(obj=list[-1])
+```
 参数
 --
 
-*   NA。
+*   obj -- 可选参数，要移除列表元素的对象。
 
 返回值
 ---
 
-返回一个字典的浅复制。
+该方法返回从列表中移除的元素对象。
 
 实例
 --
 
-以下实例展示了 copy()函数的使用方法：
+以下实例展示了 pop()函数的使用方法：
+```
+#!/usr/bin/python3
+#coding=utf-8
 
-实例
---
-
-#!/usr/bin/python  dict1 = {'Name': 'Zara', 'Age': 7}; dict2 = dict1.copy()  print  "New Dictinary : %s" % str(dict2)
-
-以上实例输出结果为：
-
-New Dictinary : {'Age': 7, 'Name': 'Zara'}
-
-* * *
-
-直接赋值和 copy 的区别
---------------
-
-可以通过以下实例说明：
-
-实例
---
-
-#!/usr/bin/python  \# -*- coding: UTF-8 -*-  dict1 = {'user':'runoob','num':\[1,2,3\]} dict2 = dict1  \# 浅拷贝: 引用对象  dict3 = dict1.copy()  \# 浅拷贝：深拷贝父对象（一级目录），子对象（二级目录）不拷贝，还是引用  \# 修改 data 数据  dict1\['user'\]='root'  dict1\['num'\].remove(1)  \# 输出结果  print(dict1)  print(dict2)  print(dict3)
-
-实例中 dict2 其实是 dict1 的引用（别名），所以输出结果都是一致的，dict3 父对象进行了深拷贝，不会随dict1 修改而修改，子对象是浅拷贝所以随 dict1 的修改而修改。
-
-{'num': \[2, 3\], 'user': 'root'}
-{'num': \[2, 3\], 'user': 'root'}
-{'num': \[2, 3\], 'user': 'runoob'}
+list1 = ['Google', 'Runoob', 'Taobao']
+list_pop=list1.pop(1)
+print "删除的项为 :", list_pop
+print "列表现在为 : ", list1
+```
+以上实例输出结果如下：
+```
+删除的项为 : Runoob
+列表现在为 : ['Google', 'Taobao']
+```
+ [![Python 列表](../images/up.gif) Python 列表](python-lists.html)
