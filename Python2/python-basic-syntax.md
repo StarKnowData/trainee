@@ -125,10 +125,10 @@ Hello, Python!
 
  Python 可以同一行显示多条语句，方法是用分号 ; 分开，如：
 
- ', u"
+ 
 ```
 >>> print 'hello';print 'runoob';
-", u'hello
+hello
 runoob
 ```
 
@@ -236,9 +236,9 @@ total = item_one + \
  
 ```
 
-', u"days = ['Monday', 'Tuesday', 'Wednesday',
+days = ['Monday', 'Tuesday', 'Wednesday',
 ", u"        'Thursday', 'Friday']
-", u'
+
 ```
 
  Python 引号
@@ -251,8 +251,8 @@ total = item_one + \
  
 ```
 
-', u"word = 'word'
-", u'sentence = "这是一个句子。"
+word = 'word'
+sentence = "这是一个句子。"
 paragraph = """这是一个段落。
 包含了多个语句"""
 
@@ -303,12 +303,12 @@ name = "Madisetti" # 这是一个注释
 # 文件名：test.py
 
 
-', u"'''
-", u'这是多行注释，使用单引号。
+'''
 这是多行注释，使用单引号。
 这是多行注释，使用单引号。
-', u"'''
-", u'
+这是多行注释，使用单引号。
+'''
+
 """
 这是多行注释，使用双引号。
 这是多行注释，使用双引号。
@@ -353,8 +353,8 @@ raw_input("按下 enter 键退出，其他任意键显示...\n")
 
 #!/usr/bin/python
 
-', u"import sys; x = 'runoob'; sys.stdout.write(x + '\n')
-", u'
+import sys; x = 'runoob'; sys.stdout.write(x + '\n')
+
 ```
 
  执行以上代码，输入结果为：
@@ -383,8 +383,8 @@ y="b"
 print x
 print y
 
-', u"print '---------'
-", u'# 不换行输出
+print '---------'
+# 不换行输出
 print x,
 print y,
 
@@ -448,6 +448,7 @@ Options and arguments (and corresponding environment variables):
 
 ```
 
- 我们在使用脚本形式执行 Python 时，可以接收命令行输入的参数，具体使用可以参照 [Python 命令行参数](python-command-line-arguments.html)
+ 我们在使用脚本形式执行 Python 时，可以接收命令行输入的参数，具体使用可以参照 [Python 命令行参数](python-command-line-arguments.md)
 。
+
 
