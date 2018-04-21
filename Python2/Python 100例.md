@@ -3,7 +3,7 @@ Python 100例
 
 以下实例在Python2.7下测试通过：
 
-*   [Python 练习实例1](python-exercise-example1.html "Python 练习实例1")
+*   [Python 练习实例1](python-exercise-example1.md "Python 练习实例1")
 *   [Python 练习实例2](python-exercise-example2.html "Python 练习实例2")
 *   [Python 练习实例3](python-exercise-example3.html "Python 练习实例3")
 *   [Python 练习实例4](python-exercise-example4.html "Python 练习实例4")
