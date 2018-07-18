@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>VirtualBox</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+</head>
+<body>
+<h1>MarkdownPad</h1>
+<ul>
+<li>下载安装后</li>
+<li>解决 An error occurred with the Html rendering component</li>
+<li>重启MarkdownPad即可使用</li>
+</ul>
+<p><strong>解决error需要下载一个工具包</strong></p>
+<blockquote>
+<p>awesomium<em>v1.6.6</em>sdk_win</p>
+</blockquote>
+<p><strong>下载地址</strong></p>
+<blockquote>
+<p><a href="http://markdownpad.com/download/awesomium_v1.6.6_sdk_win.exe">http://markdownpad.com/download/awesomium<em>v1.6.6</em>sdk_win.exe</a></p>
+</blockquote>
+<h1>VitualBox</h1>
+<p>VirtualBox 是一款开源虚拟机软件。</p>
+<h2>下载安装</h2>
+<p>地址：<a href="https://www.virtualbox.org/">https://www.virtualbox.org/</a></p>
+<h2>创建虚拟机</h2>
+<p>接下来一创建Windows7为例</p>
+<p><strong>准备材料：</strong></p>
+<ul>
+<li>windows7镜像文件</li>
+</ul>
+<blockquote>
+<p>地址：<a href="https://msdn.itellyou.cn/">https://msdn.itellyou.cn/</a></p>
+</blockquote>
+<ul>
+<li>安装好的VitualBox</li>
+</ul>
+<p><strong>步骤：</strong></p>
+<ol>
+<li>修改全局设定。点击管理--&gt;全局设定--&gt;默认虚拟电脑位置</li>
+</ol>
+<p><img src="0.png" />
+2. 新建---&gt;填写名称、类型</p>
+<p><img src="1.png" />
+3. 分配内存大小</p>
+<p><img src="2.png" />
+4. 选择虚拟硬盘的创建方式</p>
+<p><img src="3.png" />
+5. 选择虚拟硬盘文件类型</p>
+<p><img src="4.png" />
+6. 存续分配选择</p>
+<p><img src="5.png" />
+7. 确定文件位置及大小</p>
+<p><img src="6.png" />
+8. 进入新建虚拟机的设置界面，在系统启动顺序中将光驱调到最前的位置</p>
+<p><img src="7.png" />
+9. 在存储中添加准备好的镜像文件</p>
+<p><img src="8.png" />
+10. 设置好后点击启动进入虚拟机,虚拟机上的安装同重装系统一样，按提示操作即可</p>
+<p><img src="9.png" /></p>
+<h2>快照</h2>
+<blockquote>
+<p>Snapshots：系统快照，保存虚拟系统在某一时刻的全部运行状态，以后可以将虚拟系统恢复到创建此快照时的状态。在VirtualBox中文版中，snapshots被翻译成“备份”。</p>
+</blockquote>
+<p><strong>分支快照（branched snapshots）功能</strong>，可以将虚拟系统直接恢复到任意时间的备份，并且保留最近的备份，当修改了过去备份的状态后，可以在原有的备份时间线上创建一个分支，并且可以随时在不同分支上继续运行系统。</p>
+<h2>克隆</h2>
+<p>语法：
+<code>VBoxManage clonehd 需要克隆的虚拟机vdi路径 克隆成功后的新的虚拟机vdi存放路径</code></p>
+<blockquote>
+<p>需要进入到VitualBox的根目录下进行命令行操作
+<img src="11.png" /></p>
+</blockquote>
+<h2>Ubuntu分区</h2>
+<p><img src="10.png" /></p>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
