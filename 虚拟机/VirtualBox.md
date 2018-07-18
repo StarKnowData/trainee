@@ -76,19 +76,22 @@ VirtualBox 是一款开源虚拟机软件。
 ## 导入与导出
 - 需要和别人共享你的Virutalbox虚拟机，这样可以省去别人安装虚拟机和配置虚拟机的过程，节省大量时间。
 - 当你发现你虚拟机所在的分区没有足够的空间了，你需要把虚拟机转移到另外一个分区上面。
+
 **导出**
 1. 点击管理，选择导出虚拟机
 
-![](1.gif)
-2. 按提示操作并勾选勾选“写入Manifest文件”,在许可栏里可以写入备注信息，最后点击导出
+![](https://github.com/UncleLincoln/trainee/raw/master/%E8%99%9A%E6%8B%9F%E6%9C%BA/1.GIF)
+2. 按提示操作并勾选勾选“写入Manifest文件”,在许可栏里可以写入备注信息。
 
-![](2.gif)
+![](https://github.com/UncleLincoln/trainee/raw/master/%E8%99%9A%E6%8B%9F%E6%9C%BA/2.GIF)
 3. 点击导出即可
 
-![](3.gif)
-## 导入
+![](https://github.com/UncleLincoln/trainee/raw/master/%E8%99%9A%E6%8B%9F%E6%9C%BA/3.GIF)
+
+**导入**
 1. 点击管理，选择导入虚拟机，选择之前导出的ovi文件即可完成导入
-![](4.gif)
+![](https://github.com/UncleLincoln/trainee/raw/master/%E8%99%9A%E6%8B%9F%E6%9C%BA/4.GIF)
+
 ## Ubuntu分区
 ![](10.png)
 
