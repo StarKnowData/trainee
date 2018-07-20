@@ -9,16 +9,14 @@
 > 以下所有的操作(除了管理服务)必须首先进入到oneinstack文件夹中
 
 
-----------
-
-
 ### 安装
 
 按照官方文档即可，官方操作文档：[https://oneinstack.com/install/](https://oneinstack.com/install/)
 
 **1.** 进入 oneinstack文件
 
-**2.**获得权限，运行 **install.sh**文件进行安装自己所需要的环境
+
+**2.** 获得权限，运行 **install.sh**文件进行安装自己所需要的环境
 ![](OneinStack_first.gif)
 
 **3. 安装中**
