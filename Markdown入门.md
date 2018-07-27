@@ -180,8 +180,8 @@ title可以不加
 
 效果
 
-|姓名|技能1|技能2|
-|-|:-:|-:|
+姓名|技能1|技能2|
+----|:---:|---:|
 |小王|吃|撒|
 |小张|喝|睡|
 |小李|拉|玩|
@@ -236,24 +236,23 @@ end			表示结束
 
 	flow
 	st=>start: begin
-	op=>operation: 操作1
-	cond1=>condition: YES or NO?
+	op=>operation: 操作
+	cond=>condition: YES or NO?
 	e=>end
 
 	st->op->cond
-	cond1(yes)->e
-	cond1(no)->op1  
+	cond(yes)->e
+	cond(no)->op
 
 生成图
 
 flow
 st=>start: begin
-op=>operation: 操作1
+op=>operation: 操作
 cond1=>condition: YES or NO?
 e=>end
-
 st->op->cond
-cond1(yes)-e
-cond1(no)->op1
+cond(yes)->e
+cond(no)->op
 
 
