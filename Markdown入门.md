@@ -244,15 +244,11 @@ end			表示结束
 	cond(yes)->e
 	cond(no)->op
 
-生成图
+生成图:
 
 ```flow
-st=>start: 开始
-op=>operation: My Operation
-cond=>condition: YES or NO?
+st=>start: Start
+op=>operation: zaozuo1
 e=>end
-st->op->cond
-cond(yes)->e
-```cond(no)->op
-
+```
 
