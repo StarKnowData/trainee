@@ -246,9 +246,12 @@ end			表示结束
 
 生成图:
 
-```flow
+flow
 st=>start: Start
-op=>operation: zaozuo1
+op=>operation: Your Operation
+cond=>condition: Yes or No?
 e=>end
-```
+st->op->cond
+cond(yes)->e
+cond(no)->op
 
