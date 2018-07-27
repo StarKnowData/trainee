@@ -235,8 +235,8 @@ end			表示结束
 栗
 
 	flow
-	st=>start: begin
-	op=>operation: 操作
+	st=>start: 开始
+	op=>operation: My Operation
 	cond=>condition: YES or NO?
 	e=>end
 
@@ -247,9 +247,9 @@ end			表示结束
 生成图
 
 flow
-st=>start: begin
-op=>operation: 操作
-cond1=>condition: YES or NO?
+st=>start: 开始
+op=>operation: My Operation
+cond=>condition: YES or NO?
 e=>end
 st->op->cond
 cond(yes)->e
