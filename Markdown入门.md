@@ -246,7 +246,7 @@ end			表示结束
 
 生成图
 
-flow
+```flow
 st=>start: 开始
 op=>operation: My Operation
 cond=>condition: YES or NO?
@@ -254,5 +254,6 @@ e=>end
 st->op->cond
 cond(yes)->e
 cond(no)->op
+&```
 
 
