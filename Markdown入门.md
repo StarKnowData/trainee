@@ -253,7 +253,6 @@ cond=>condition: YES or NO?
 e=>end
 st->op->cond
 cond(yes)->e
-cond(no)->op
-&```
+```cond(no)->op
 
 
