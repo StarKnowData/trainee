@@ -128,7 +128,7 @@ nginx配置图略
 
 #### 6. lnmp一键安装配置环境下mysql5.7的严格模式的关闭
 
-关闭mysql的严格模式，一般是在**/etc/my.cnf**中进行更改，但是这对于使用lnmp一键安装的方式配置的环境而言，有可能会不起作用，那么我们可以通过在**/usr/local/mysql/my.cnf**中进行更改，如果在/usr/local/mysql中没有my.cnf文件，则新创建一个my.cnf文件，并写入以下语句：
+关闭mysql的严格模式，一般是在/etc/my.cnf中进行更改，但是这对于使用lnmp一键安装的方式配置的环境而言，有可能会不起作用，那么我们可以通过在/usr/local/mysql/my.cnf中进行更改，如果在/usr/local/mysql中没有my.cnf文件，则新创建一个my.cnf文件，并写入以下语句：
 
     [mysqld]
     sql_mode = NO_ENGINE_SUBSTITUTION
