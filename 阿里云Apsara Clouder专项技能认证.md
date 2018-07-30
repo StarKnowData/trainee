@@ -7,7 +7,15 @@
 4. 领取电子证书
 
 ### 二、类别
-1. 产品:
+1. API调用:  
+[实现调用API接口 ](https://edu.aliyun.com/course/416?spm=5176.10731460.0.0.W4uNrG)  
+课时1：API简介  
+课时2：API请求与认证  
+课时3：API调试与调用  
+课时4：API实战——股票行情查询  
+课时5：API实战——场景识别  
+
+2. 产品:
 * [在线教育学生数据分析](https://edu.aliyun.com/course/650/lesson/list?spm=5176.8764728.aliyun-edu-course-tab.2.tRQCwc&previewAs=guest)    
     课时1：项目背景介绍  
     课时2：数据分析主要方法   
@@ -15,7 +23,7 @@
     课时4：在线教育数据分析流程   
     课时5：【在线实验】在线教育数据分析实验   
 
-2. 运营：  
+3. 运营：  
 * [共享单车骑行分析](https://edu.aliyun.com/certification/cldd36?spm=5176.8702532.915234.24.F5Gds5)  
 课时1：共享单车骑行现状介绍  
 课时2：数据分析方法介绍  
@@ -24,10 +32,10 @@
 课时5：案例场景分析  
 课时6：【在线实验】共享单车骑行分析  
 
-3. 程序员: 云安全Clouder认证   
+4. 程序员: 云安全Clouder认证   
 ![云安全Clouder认证](https://note.youdao.com/yws/public/resource/afaff223b414de6429a5c7a214818907/xmlnote/6FA7BD45A8FA482E8C7A559E0C0E374C/27962)
 
-4. 数分:
+5. 数分:
 * [外卖点餐数据分析](https://edu.aliyun.com/course/394/lesson/list?spm=5176.8764728.aliyun-edu-course-tab.2.ZhOhDq)  
     课时1：数据分析知识简介（1）  
     课时2：数据分析知识简介（2）  
@@ -50,7 +58,7 @@
     第8 章：掌握DataV数据可视化  
     第9 章：掌握机器学习PAI  
 
-5. BD:  
+6. BD:  
 * [制作实时销售数据可视化大屏](https://edu.aliyun.com/certification/cldd06?spm=5176.8702532.915234.17.F5Gds5)  
     第1 章 ： 视频课程  
     课时1：数据可视化介绍  
@@ -66,5 +74,4 @@
     课时10：实战开发第2步：配置数据集  
     课时11：实战开发第3步：大屏开发  
     课时12：实战开发第4步：发布  
-
 
