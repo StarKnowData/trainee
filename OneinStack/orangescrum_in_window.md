@@ -1,6 +1,6 @@
 # orangescrum in windows
 
-###环境
+### 环境
 
 - Apache 2.4.33
 - PHP 5.6.36
@@ -14,7 +14,7 @@
 
 ### 步骤
 
-**1.创建虚拟主机。**我把文件放在了虚拟机的C:\orangescrum中，根目录在C:\orangescrum\app\webroot。
+**1.创建虚拟主机。** 我把文件放在了虚拟机的C:\orangescrum中，根目录在C:\orangescrum\app\webroot。
 
 1.1 在实际主机上的hosts文件中加上虚拟主机域名与ip地址
 
@@ -46,6 +46,6 @@ httpd.conf中取消以下的注释，将httpd-vhosts.conf文件导入虚拟主�
 
 配置完后就可在实际主机上访问了。
 
-**2.按照安装向导进行操作。**类似在ubantu上的操作，默认已经关闭了mysql的严格模式。
+**2.按照安装向导进行操作。** 类似在ubantu上的操作，默认已经关闭了mysql的严格模式。
 
 > XAMPP默认phpMyAdmin的初始用户有root，密码为空
