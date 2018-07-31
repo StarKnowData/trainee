@@ -1,0 +1,3041 @@
+<html><head>
+
+<title>HTML 语法教学</title>
+<meta http-equiv="Content-Type" content="text/html; charset=GB2312">
+<link rel="stylesheet" href="images/word.css" type="text/css">
+<link rel="stylesheet" href="images/temp.css" type="text/css">
+<link rel="stylesheet" href="images/dob.css" type="text/css">
+<script language="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+</head><body leftmargin="0" topmargin="0" onload="MM_preloadImages('images/index_top_1_f2.gif','images/index_top_2_f2.gif','images/index_top_3_f2.gif','images/index_top_4_f2.gif','images/index_top_5_f2.gif','images/index_top_6_f2.gif')" bgcolor="#ffffff" marginheight="0" marginwidth="0" text="#42413c">
+<br><br><br>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="92%">
+              
+  <tbody><tr> 
+                
+    <td width="21"><img src="images/stationary_Ltop.gif" height="6" width="21"></td>
+    <td background="images/stationary_Ctop.gif" width="100%"><img src="images/stationary_Ctop.gif" height="6" width="1"></td>
+    <td width="9"><img src="images/stationary_Rtop.gif" height="6" width="9"></td>
+  </tr>
+            
+</tbody></table>
+<table align="center" bgcolor="#fef1e0" border="0" cellpadding="0" cellspacing="0" width="92%">
+  <tbody><tr valign="top"> 
+                
+    <td align="center" background="images/stationary.gif" nowrap="nowrap" width="20"><font face="Arial, Helvetica, sans-serif"><img src="images/0.gif" height="20" width="20"></font></td>
+    <td align="right" nowrap="nowrap"> 
+      <table border="0" cellpadding="12" cellspacing="0" width="100%">
+        <tbody><tr> 
+          <td colspan="2" background="images/BG50.GIF" nowrap="nowrap" valign="top"> 
+            <p class="T1"><font color="#cc6600" face="Arial, Helvetica, sans-serif"><a name="nav"></a>H</font><font class="T2" color="#0066ff" face="Arial, Helvetica, sans-serif">T</font><font color="#996600" face="Arial, Helvetica, sans-serif">M</font><font class="T2" color="#669999" face="Arial, Helvetica, sans-serif">L</font><font face="楷体_GB2312"> 
+              <font color="#999999" face="Arial, Helvetica, sans-serif">4.0</font><font face="宋体"> 
+              <font color="#993300">语 法 教 学</font></font></font></p>
+          </td>
+        </tr>
+        <tr> 
+          <td background="images/BG50.GIF" nowrap="nowrap">&nbsp;</td>
+          <td background="images/BG50.GIF" valign="top" width="100%"> 
+            <p class="T3"><span class="Color_Org">■</span> <span class="Color_Org">认识HTML语法 
+              </span><span class="Cont3">(<font color="#996633">标签快速导览</font>)</span></p>
+            <table class="Color_Red" align="center" background="images/BACK25.GIF" bgcolor="#ffffff" border="1" bordercolor="#990000" cellpadding="2" cellspacing="0" width="86%">
+              <tbody><tr bordercolor="#FCF4E4" valign="top"> 
+                <td class="Cont2" nowrap="nowrap" width="50%">
+				  ◆ <a href="#t1" class="a_org">网页架构</a><br>
+                  ◆ <a href="#t2" class="a_org">分隔标签</a><br>
+                  ◆ <a href="#t3" class="a_org">排版标签</a><br>
+                  ◆ <a href="#t4" class="a_org">字体标签</a><br>
+                  ◆ <a href="#t5" class="a_org">文字标签</a><br>
+                  ◆ <a href="#t6" class="a_org">影像标签</a><br>
+                  ◆ <a href="#t7" class="a_org">背景标签</a><br>
+</td>
+                <td class="Cont2"  nowrap="nowrap" width="50%">
+				  ◆ <a href="#t8" class="a_org">连结标签</a><br>
+                  ◆ <a href="#t9" class="a_org">表格标签</a><br>
+				  ◆ <a href="#t10" class="a_org">序列标签</a><br>
+				  ◆ <a href="#t11" class="a_org">表单标签</a><br>
+				  ◆ <a href="#t12" class="a_org">框架标签</a><br>
+				  ◆ <a href="#t13" class="a_org">其他技巧</a> 
+				</td>
+              </tr>
+            </tbody></table>
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+    <td class="top2" align="right" background="images/stationary_end.gif" nowrap="nowrap" width="5"><img src="images/0.gif" height="8" width="5"></td>
+  </tr>
+            
+</tbody></table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="92%">
+              
+  <tbody><tr> 
+                
+    <td height="3" width="21"><img src="images/stationary_down.gif" height="3" width="21"></td>
+    <td bgcolor="#d4c1b0" width="100%"><img src="images/0.gif" height="3" width="3"></td>
+    <td background="images/stationary_end.gif" width="9"><img src="images/0.gif" height="3" width="3"></td>
+  </tr>
+            
+</tbody></table>
+<div align="center"></div>
+<br>
+<table align="center" bgcolor="#fafaf5" border="1" bordercolor="#cccccc" cellpadding="12" cellspacing="0" width="92%">
+  <tbody><tr bordercolor="#993300" bgcolor="#fcfcfa"> 
+    <td class="Cont2" background="images/Letter_bg_lm.jpg"> 
+      ■ <span class="Color_Blue">细说HTML标签</span>
+<p class="Color_Org"><a name="tagindex"></a>在HTML语法中，大致上可以分为： ( 节录自‘<a href="http://dob.tnc.edu.tw/" target="_blank">网站建置百宝箱</a>’)</p>
+      <ol>
+        <li><span class="Color_Red"><a href="#t1">网页架构</a></span>：主要网页主架构的介绍</li>
+        <li><span class="Color_Red"><a href="#t2">分隔标签</a></span>：也就是所谓的水平线</li>
+        <li><span class="Color_Red"><a href="#t3">排版标签</a></span>：针对标签的属性，可做适当的版面编排</li>
+        <li><span class="Color_Red"><a href="#t4">字体标签</a></span>：教导您设定文字的字体。</li>
+        <li><span class="Color_Red"><a href="#t5">文字标签</a></span>：教导您设定文字的颜色、行距、变化.....等等。</li>
+        <li><span class="Color_Red"><a href="#t6">影像标签</a></span>：教导您如何在网页中，植入图像。</li>
+        <li><span class="Color_Red"><a href="#t7">背景标签</a></span>：教导您如何设定背景颜色或是背景图像。</li>
+        <li><span class="Color_Red"><a href="#t8">连结标签</a></span>：教导您如何设定超连结，以及开视窗的条件。</li>
+        <li><span class="Color_Red"><a href="#t9">表格标签</a></span>：教导您如何在网页中运用表格。</li>
+        <li><span class="Color_Red"><a href="#t10">序列标签</a></span>：教导您如何设定文字序列或图形序列。</li>
+        <li><span class="Color_Red"><a href="#t11">表单标签</a></span>：教导您如何制作可填写用的表单。</li>
+        <li><span class="Color_Red"><a href="#t12">框架标签</a></span>：可让同一个视窗由多个网页一起组成。</li>
+        <li><span class="Color_Red"><a href="#t13">其他技巧</a></span>：让您的整个网页背景可以让您设定为图片或是声音。</li>
+      </ol>
+      <a name="t1"></a> 
+      <p class="BG_LightGry"><b><span class="T3">4.1 <font color="#cc6600">网页架构 
+        </font></span><font color="#cc6600"><span class="Cont3">&lt;<a href="#tagindex">回细说索引</a>&gt;</span></font><span class="T3"><font color="#cc6600"> 
+        </font></span></b></p>
+      <blockquote> 
+        <p>&lt;HTML&gt;<br>
+          　&lt;HEAD&gt;<br>
+          　　&lt;TITLE&gt;<font color="#993300">网页制作教学</font>&lt;/TITLE&gt;<br>
+          　　&lt;Meta&gt;<br>
+          　&lt;/HEAD&gt;<br>
+          　&lt;BODY&gt;<br>
+          　　<font color="#cc3300">BODY之间则为主要语法所在，也是网页的主要呈现部分。</font><br>
+          　&lt;/BODY&gt;<br>
+          &lt;/HTML&gt;<br>
+        </p>
+      </blockquote>
+      【标签解说】 
+      <p>以上看到的就是一篇最简单架构的网页。没错，网页其实就是一堆标签<span class="Color_Org">（所谓标签就是指被&lt;&gt;包起来的语法）</span>集合起来的，透过浏览器的消化整理，就便成了美仑美奂的网页了。 
+      </p>
+      <p>简单而言，通常一份完整的网页包含了二个部份：抬头（HEAD）、文件本体（BODY）。也就是各位在上面所看到的<span class="Color_Blue">&lt;HEAD&gt;&lt;/HEAD&gt;</span>以及<span class="Color_Blue">&lt;BODY&gt;&lt;/BODY&gt;</span>。 
+      </p>
+      <p>在抬头的部份&lt;HEAD&gt;&lt;/HEAD&gt;中，有另一组标签<span class="Color_Blue">&lt;TITLE&gt;&lt;/TITLE&gt;</span>。打在&lt;TITLE&gt;&lt;/TITLE&gt;这里面的文字会出现在浏览器视窗最上头蓝色部份里，当作一篇网页的主题。 
+      </p>
+      <p>您可能会发现，为什么我一直没提到&lt;HTML&gt;&lt;/HTML&gt;这一组标签，嗯！因为它可有可无。这一组标签是告诉浏览器说：我是一份HTML文件喔！也就是说它是一个网页的格式啦！通常都包在网页的最上下两端，将所有的原始码都包起来。 
+      </p>
+      <a name="t2"></a> 
+      <p class="BG_LightGry"><b><span class="T3">4.2 <font color="#cc6600">分隔标签 
+        </font></span><font color="#cc6600"><span class="Cont3">&lt;<a href="#tagindex">回细说索引</a>&gt;</span></font></b></p>
+      <table align="center" cellpadding="6" cellspacing="0" width="100%">
+         
+        <tbody><tr> 
+          <td><br>
+            <font class="title">【文字上的分隔标签】</font> 
+            <p>或
+许你已经发现这个问题了：天啊！我不是在记事本里排版排得很漂亮，为何透过浏览器看起来一切都走了样？对啊！别太讶异，在网页的编排里，并不像汉书或
+WORD一样，只要拼命按Enter键或空白键，便能完成分段或分行，因为，HTML语言是不认识我们所谓的Enter键或空白键，所以不管您按了多少次
+的空白或Enter，浏览器都会当作没看见啦！ </p><p> 
+            </p><ol>
+              <p> 
+              </p><li><b>使用方法：</b><font class="gword">强制断行标签</font><font class="pword">&lt;br&gt;</font>、<font class="gword">强制分段标签</font><font class="pword">&lt;p&gt;</font> 
+                <p></p>
+              </li><li><b>标签解说：</b>我们在写文章时，有时候在特定的地方会强迫断行（&lt;br&gt;），或是在写完某一段的时候便会分段（&lt;p&gt;），写网页也一样，而且更需要断行及分段的功能，以免整个网页看起来乱糟糟的。 
+                <p></p>
+              </li><li><b>使用范例：</b> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>这是一个断行的范例&lt;br&gt;看出来了吗？</td>
+                    <td>这是一个断行的范例<br>
+                      看出来了吗？ </td>
+                  </tr>
+                  <tr> 
+                    <td>这是一个分段的范例&lt;p&gt;基本上他会比断行还多空出一行</td>
+                    <td>这是一个分段的范例 
+                      <p>基本上分段会比断行还多空出一行 </p>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【分隔线标签】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li><b>使用方法：</b><font class="gword">上一段文字内容</font><font class="pword">&lt;hr&gt;</font><font class="gword">下一段文字内容</font> 
+                <p></p>
+              </li><li><b>标签解说：</b>利用<font class="pword">&lt;hr&gt;</font>这个标签便可产生一条横分隔线。另外，其有些属性分别说明如下： 
+                <p></p>
+              </li><li><b>使用范例：</b><br>
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141">一般用法</td>
+                    <td class="whiteword" bgcolor="#666666">尚未加任何属性。</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>普通分隔线<font class="pword">&lt;hr&gt;</font></td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white">普通分隔线 
+                      <hr>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141" width="60">颜色属性</td>
+                    <td class="whiteword" bgcolor="#666666">用法：&lt;hr color="颜色码或颜色名称"&gt;</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>橘色分隔线<font class="pword">&lt;hr color="#ff8000"&gt;</font></td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white">橘色分隔线 
+                      <hr color="#ff8000">
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141" width="60">宽度属性</td>
+                    <td class="whiteword" bgcolor="#666666">用法：&lt;hr width="宽度"&gt;，其单位为px（像素），宽度亦可用百分比来作设定，如50%即意为宽度占荧幕50%。</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>宽度为240px的分隔线<font class="pword">&lt;hr width="240"&gt;</font></td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white">宽度为240px分隔线 
+                      <hr width="240">
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141" width="60">厚度属性</td>
+                    <td class="whiteword" bgcolor="#666666">用法：&lt;hr size="厚度"&gt;</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>厚度为5的分隔线<font class="pword">&lt;hr size="5"&gt;</font></td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white">厚度为5分隔线 
+                      <hr size="5">
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141" width="60">位置属性</td>
+                    <td class="whiteword" bgcolor="#666666">用法：&lt;hr align="水平对齐位置"&gt;，其设定值有三个，也就是置左align="left"、置中align="center"、置右align="right"</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>靠右的分隔线<font class="pword">&lt;hr align="right"&gt;</font></td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white">靠右的分隔线 
+                      <hr align="right">
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141" width="60">阴影属性</td>
+                    <td class="whiteword" bgcolor="#666666">用法：&lt;hr noshade&gt;，无设定值，只要将 
+                      noshade 加入即可，通常会配合颜色设定，效果较佳。</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>实心分隔线（无阴影）<font class="pword">&lt;hr noshade&gt;</font></td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white">实心分隔线（无阴影） 
+                      <hr noshade="noshade">
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li>
+            </ol>
+          </td>
+        </tr>
+         
+      </tbody></table>
+      <a name="t3"></a> 
+      <p class="BG_LightGry"><b><span class="T3">4.3 <font color="#cc6600">排版标签 
+        </font></span><font color="#cc6600"><span class="Cont3">&lt;<a href="#tagindex">回细说索引</a>&gt;</span></font></b></p>
+      <table align="center" cellpadding="6" cellspacing="0" width="100%">
+         
+        <tbody><tr> 
+          <td><br>
+            <font class="title">【文字置左、置中、置右】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li><b>使用方法：</b>老实说，刚刚我们学过的分段标签&lt;p&gt;再加上一些简单的属性设定，就可以让其整个文字段落置左、置中或置右了，就如下表所示： 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;p align="left"&gt;文字靠左&lt;/p&gt;</td>
+                    <td> 
+                      <p align="left">文字靠左</p>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;p align="center"&gt;文字置中&lt;/p&gt;</td>
+                    <td> 
+                      <p align="center">文字置中</p>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;p align="right"&gt;文字靠右&lt;/p&gt;</td>
+                    <td> 
+                      <p align="right">文字靠右</p>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p><b>标签解说：</b>嗯！秘诀就在于“align=<font class="redword">对齐位置</font>”而已啦！align是分段标签&lt;p&gt;的属性之一，这个属性将来会常常在不同标签中看到，它的功能是专门在设定“水平对齐位置”，其常见的设定值有三个，也就是<font class="pword">置左（align="left"）</font>、<font class="pword">置中（align="center"）</font>、<font class="pword">置右（align="right"）</font>。 </p>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【置中标签】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li><b>使用方法：</b><font class="pword">&lt;center&gt;</font><font class="gword">这是置中</font><font class="pword">&lt;/center&gt;</font> 
+                <p></p>
+              </li><li><b>标签解说：</b>这个标签是最常用到的标签了，除了文字，对于图片、表格，任何可以显现在网页上的东西都可以置中喔！ 
+                <p></p>
+              </li><li><b>使用范例：</b> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;center&gt;这是最中间&lt;/center&gt;</td>
+                    <td> 
+                      <center>
+                        这是最中间 
+                      </center>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【向右缩排标签】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li><b>使用方法：</b><font class="pword">&lt;blockquote&gt;</font><font class="gword">要缩排的文字</font><font class="pword">&lt;/blockquote&gt;</font> 
+                <p></p>
+              </li><li><b>标签解说：</b>利用<font class="pword">&lt;blockquote&gt;</font><font class="pword">&lt;/blockquote&gt;</font>这个标签可以将其包起来的文字，全部往右缩排。而且加一组标签，往右缩排一单位，加两组标签，往右缩排两单位，依此类推。 
+                <p></p>
+              </li><li><b>使用范例：</b> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果</td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;blockquote&gt;缩排1单位&lt;/blockquote&gt;</td>
+                    <td> 
+                      <blockquote>缩排1单位</blockquote>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;blockquote&gt;&lt;blockquote&gt;缩排2单位&lt;/blockquote&gt;&lt;/blockquote&gt;</td>
+                    <td> 
+                      <blockquote> 
+                        <blockquote>缩排2单位</blockquote>
+                      </blockquote>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【保存原始格式标签】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li><b>使用方法：</b><font class="pword">&lt;pre&gt;</font><font class="gword">文字内容</font><font class="pword">&lt;pre&gt;</font> 
+                <p></p>
+              </li><li><b>标签解说：</b>利用<font class="pword">&lt;pre&gt;</font><font class="pword">&lt;/pre&gt;</font>这个标签可以将其包起来的文字排版、格式，原封不动的呈现出来。算是相当好用的标签之一。 
+                <p></p>
+              </li><li><b>使用范例：</b> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果</td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;pre&gt;<br>
+                      文　字<br>
+                      　格　式<br>
+                      &lt;/pre&gt;</td>
+                    <td> 
+                      <pre>文　字
+　格　式
+
+</pre>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+              </li>
+            </ol>
+          </td>
+        </tr>
+         
+      </tbody></table>
+      <a name="t4"></a> 
+      <p class="BG_LightGry"><b><span class="T3">4.4 <font color="#cc6600">字体标签 
+        </font></span><font color="#cc6600"><span class="Cont3">&lt;<a href="#tagindex">回细说索引</a>&gt;</span></font></b></p>
+      <table align="center" cellpadding="6" cellspacing="0" width="100%">
+         
+        <tbody><tr> 
+          <td><br>
+            <font class="title">【标题标签】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li><b>使用方法：</b><font class="pword">&lt;h1&gt;</font><font class="gword">标题内容</font><font class="pword">&lt;/h1&gt;</font> 
+                <p></p>
+              </li><li><b>标签解说：</b>标题的大小一共有六种，两个标签一组，也就是从&lt;h1&gt;到&lt;h6&gt;，&lt;h1&gt;最大，&lt;h6&gt;最小。使用标题标签时，该标签会将字体变成粗体字，并且会自成一行。 
+                <p></p>
+              </li><li><b>使用范例：</b><br>
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;h1&gt;标题一&lt;/h1&gt;</td>
+                    <td> 
+                      <h1>标题一</h1>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;h2&gt;标题二&lt;/h2&gt;</td>
+                    <td> 
+                      <h2>标题二</h2>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;h3&gt;标题三&lt;/h3&gt;</td>
+                    <td> 
+                      <h3>标题三</h3>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;h4&gt;标题四&lt;/h4&gt;</td>
+                    <td> 
+                      <h4>标题四</h4>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;h5&gt;标题五&lt;/h5&gt;</td>
+                    <td> 
+                      <h5>标题五</h5>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;h6&gt;标题六&lt;/h6&gt;</td>
+                    <td> 
+                      <h6>标题六</h6>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【设定字体大小标签】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li><b>使用方法：</b><font color="#ff0080">&lt;font size=3&gt;</font><font class="gword">文字内容</font><font color="#ff0080">&lt;/font&gt;</font> 
+                <p></p>
+              </li><li><b>标签解说：</b>标题的大小一共有七种，也就是&lt;font size=1&gt;（最小）到&lt;font size=7&gt;（最大），另外，还有一种写法：<font color="#ff0080">&lt;font size=+1&gt;</font><font class="gword">文字内容</font><font color="#ff0080">&lt;/font&gt;</font>，其意思就是说：比预设字大一级。当然也可以 font 
+                size=+2（比预设字大二级），或是 font size=-1（比预设字小一级），以一般而言，预设字体多为 3。 
+                <p></p>
+              </li><li><b>使用范例：</b><br>
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;font size=1&gt;字体一&lt;/font&gt; 或是<br>
+                      &lt;font size=-2&gt;字体一&lt;/font&gt;</td>
+                    <td><font size="1">字体一</font> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;font size=2&gt;字体二&lt;/font&gt; 或是<br>
+                      &lt;font size=-1&gt;字体二&lt;/font&gt;</td>
+                    <td><font size="2">字体二</font> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;font size=3&gt;字体三&lt;/font&gt; 或是<br>
+                      &lt;font size=+0&gt;字体三&lt;/font&gt;</td>
+                    <td><font size="3">字体三</font> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;font size=4&gt;字体四&lt;/font&gt; 或是<br>
+                      &lt;font size=+1&gt;字体四&lt;/font&gt;</td>
+                    <td><font size="4">字体四</font> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;font size=5&gt;字体五&lt;/font&gt; 或是<br>
+                      &lt;font size=+2&gt;字体五&lt;/font&gt;</td>
+                    <td><font size="5">字体五</font> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;font size=6&gt;字体六&lt;/font&gt; 或是<br>
+                      &lt;font size=+3&gt;字体六&lt;/font&gt;</td>
+                    <td><font size="6">字体六</font> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;font size=6&gt;字体七&lt;/font&gt; 或是<br>
+                      &lt;font size=+4&gt;字体七&lt;/font&gt;</td>
+                    <td><font size="7">字体七</font> </td>
+                  </tr>
+                   
+                </tbody></table>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【字型变化标签】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li><b>使用方法：</b><font class="pword">&lt;b&gt;</font><font class="gword">文字</font><font class="pword">&lt;/b&gt;</font> 
+                <p></p>
+              </li><li><b>标签解说：</b>在文字标签里，对于文字的格式也有相当多的变化，如粗体、斜体...等，此外，也定义了一些现成的格式供编者使用，如‘强调’、‘原始码’...等，当然，这只是方便您参考用，并无强迫说遇到原始码就要加上‘原始码’的标签。 
+                <p></p>
+              </li><li><b>使用范例：</b><br>
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;b&gt;粗体&lt;/b&gt;</td>
+                    <td><b>粗体</b> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;i&gt;斜体&lt;/i&gt;</td>
+                    <td><i>斜体</i> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;u&gt;底线&lt;/u&gt;</td>
+                    <td><u>底线</u> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;sup&gt;上标&lt;/sup&gt;</td>
+                    <td><sup>上标</sup> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;sub&gt;下标&lt;/sub&gt;</td>
+                    <td><sub>下标</sub> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;tt&gt;打字机&lt;/tt&gt;</td>
+                    <td><tt>打字机</tt> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;blink&gt;闪烁&lt;/blink&gt;（ie没效果）</td>
+                    <td><blink>闪烁</blink> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;em&gt;强调&lt;/em&gt;</td>
+                    <td><em>强调</em> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;strong&gt;加强&lt;/strong&gt;</td>
+                    <td><strong>加强</strong> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;samp&gt;范例&lt;/samp&gt;</td>
+                    <td><samp>范例</samp> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;code&gt;原始码&lt;/code&gt;</td>
+                    <td><code>原始码</code> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;var&gt;变数&lt;/var&gt;</td>
+                    <td><var>变数</var> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;dfn&gt;定义&lt;/dfn&gt;</td>
+                    <td><dfn>定义</dfn> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;cite&gt;引用&lt;/cite&gt;</td>
+                    <td><cite>引用</cite> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;address&gt;所在地址&lt;/address&gt;</td>
+                    <td> 
+                      <address>所在地址</address>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【文字颜色设定】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li><b>使用方法：</b><font class="pword">&lt;font color="#fefecb"&gt;</font><font class="gword">文字颜色</font><font class="pword">&lt;/font&gt;</font> 
+                <p></p>
+              </li><li><b>标签解说：</b>文字也可以设定 颜色喔！至于颜色有哪些....这....哪天我心血来潮再来做个色彩对应表吧！ 
+                <p></p>
+              </li><li><b>使用范例：</b><br>
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;font color="#ff0000"&gt;红&lt;/font&gt;</td>
+                    <td><font color="#ff0000">红色的字喔！</font> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;font color="#ff8000"&gt;橙&lt;/font&gt;</td>
+                    <td><font color="#ff8000">橙色的字喔！</font> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;font color="#ffff00"&gt;黄&lt;/font&gt;</td>
+                    <td bgcolor="#666666"><font color="#ffff00">黄色的字喔！</font> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;font color="#00ff00"&gt;绿&lt;/font&gt;</td>
+                    <td><font color="#00ff00">绿色的字喔！</font> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;font color="#0080ff"&gt;蓝&lt;/font&gt;</td>
+                    <td><font color="#0080ff">蓝色的字喔！</font> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;font color="#0000a0"&gt;靛&lt;/font&gt;</td>
+                    <td><font color="#0000a0">靛色的字喔！</font> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;font color="#8000ff"&gt;紫&lt;/font&gt;</td>
+                    <td><font color="#8000ff">紫色的字喔！</font> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;font color="#000000"&gt;黑&lt;/font&gt;</td>
+                    <td><font color="#000000">黑色的字喔！</font> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;font color="#c0c0c0"&gt;灰&lt;/font&gt;</td>
+                    <td bgcolor="#ffffff"><font color="#c0c0c0">灰色的字喔！</font> </td>
+                  </tr>
+                   
+                </tbody></table>
+              </li>
+            </ol>
+          </td>
+        </tr>
+         
+      </tbody></table>
+      <a name="t5"></a> 
+      <p class="BG_LightGry"><b><span class="T3">4.5 <font color="#cc6600">文字标签 
+        </font></span><font color="#cc6600"><span class="Cont3">&lt;<a href="#tagindex">回细说索引</a>&gt;</span></font></b></p>
+      <table align="center" cellpadding="6" cellspacing="0" width="100%">
+         
+        <tbody><tr> 
+          <td><font class="title">【文字字型设定】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li><b>使用方法：</b><font class="pword">&lt;font face="字型名称"&gt;</font><font class="gword">文字</font><font class="pword">&lt;/font&gt;</font> 
+                <p></p>
+              </li><li><b>标签解说：</b>网页上也可以使用字型喔！唯一的一个限制是：对方也要有该字型！否则看到的仍然还是宋体。另外要说明的是，这个标签并无法保证在每个浏览器上都能正常的显现，不过这并没有关系，看不到特殊的字型时，浏览器仍会以宋体来显示，所以不用怕会一团乱！ 
+                <p>另
+外，如果您的网页中有加上这一行叙述&lt;meta http-equiv="content-type"
+content="text/html;charset=big5"&gt;（指定网页的语言格式，以后我会解释），那么，netscape可以正确显示
+出中文，但英文无反应。若没有加该行，那么英文会正确显示，但中文却仍是宋体。至于 ie 系列，均能正常显示。 </p><p></p>
+              </li><li><b>使用范例：</b><br>
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;font face="楷体_GB2312"&gt;楷体_GB2312&lt;/font&gt;</td>
+                    <td><font face="楷体_GB2312">楷体_GB2312</font> </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;font face="华康俪中黑"&gt;华康俪中黑&lt;/font&gt;</td>
+                    <td><font face="华康俪中黑">华康俪中黑</font> </td>
+                  </tr>
+                   
+                </tbody></table>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【特殊字元】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li><b>使用方法：</b><font class="pword">&amp;nbsp;</font> 
+                <p></p>
+              </li><li><b>标签解说：</b>很多特殊的符号是需要特别处理的，比如说" &lt; "、" &gt; "这两个符号若想要呈现在网页上是没有办法直接打" 
+                &lt; "的，要呈现" &lt; "必须输入编码表示法：“&amp;lt;”，常用的如下： 
+                <p></p>
+              </li><li><b>使用范例：</b><br>
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&amp;nbsp;</td>
+                    <td>&nbsp; (&amp;nbsp;代表一个不断行空白) </td>
+                  </tr>
+                  <tr> 
+                    <td>&amp;lt;</td>
+                    <td>&lt; </td>
+                  </tr>
+                  <tr> 
+                    <td>&amp;gt;</td>
+                    <td>&gt; </td>
+                  </tr>
+                  <tr> 
+                    <td>&amp;amp;</td>
+                    <td>&amp; </td>
+                  </tr>
+                  <tr> 
+                    <td>&amp;quot;</td>
+                    <td>" </td>
+                  </tr>
+                   
+                </tbody></table>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【设定文字内定值大小】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li><b>使用方法：</b><font class="pword">&lt;basefont size="1~7"&gt;</font> 
+                <p></p>
+              </li><li><b>标签解说：</b>这个标签可以改变文字大小的内定值，直接加在&lt;body&gt;标签之后就行了。一般而言，若是没有特别设定，文字大小内定值预定值为3。 
+              </li>
+            </ol>
+          </td>
+        </tr>
+         
+      </tbody></table>
+      <a name="t6"></a> 
+      <p class="BG_LightGry"><b><span class="T3">4.6 <font color="#cc6600">影像标签 
+        </font></span><font color="#cc6600"><span class="Cont3">&lt;<a href="#tagindex">回细说索引</a>&gt;</span></font></b></p>
+      <table align="center" cellpadding="6" cellspacing="0" width="100%">
+         
+        <tbody><tr> 
+          <td><font class="title">【影像标签】</font> 
+            <p>在
+使用影像标签时有两件事值得注意一下，一是档名，二是路径。首先要注意的就是，档名是否正确以及大小写是否一致！图档名称不正确，任电脑再厉害也找不到您
+要的图，档名大小写不一致，如Image.gif、image.gif、image.GIF在自己的电脑中看都能正确的显示，但是一但传到网路上去时，因
+为系统不一样的关系（电脑伺服器的作业系统可比个人用电脑的作业系统严谨多了）就变成三个不一样的档案了，所以，可别忽略档名大小写不一致的影响。 </p><p>另外一个就是路径问题了，这个问题也不难，我们在稍后会提到。我们先来看看影像的标签如何写。 
+            </p><p> 
+            </p><ol>
+              <p> 
+              </p><li><b>使用方法：</b><font class="pword">&lt;img src="boy.gif" alt="本站特约模特儿" 
+                align=right border=0 hspace=2 vspace=2 height=56 width=32&gt;</font> 
+                <p></p>
+              </li><li><b>标签解说：</b>目前常见的网页图形格式有两种就是gif及jpg两种格式。gif格式只有256色，不过色彩比较鲜艳干净漂亮，适合电脑美工图案。而jpg格式的图案是全彩失真压缩，比较适合一大堆颜色的图片，如照片就较适合用jpg格式来呈现。 
+                <p></p>
+              </li><li><b>使用范例：</b> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141" width="60">基本用法</td>
+                    <td class="whiteword" bgcolor="#666666">用法：&lt;img src="图档名称、路径"&gt;<br>
+                      显示图片最基本的方法（就是不加任何属性啦！）其中 boy.gif 就是图档的档名。</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>&lt;img src="<font class="pword">images/G-FASE4.GIF</font>"&gt;嗨！我是本站的模特儿喔！</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white"><img src="images/G-FASE4.GIF" height="32" width="32">嗨！我是本站的模特儿喔！</td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141" width="60">长宽设定</td>
+                    <td class="whiteword" bgcolor="#666666">用法：&lt;img src="图档"&nbsp;height="高度"&nbsp;width="宽度"&gt;<br>
+                      设图片的大小，其实不用设也可以，但是有设更好，可以加快浏览速度，因为浏览器就不用在那边花时间算您的图片有多大啦！此外您也可以自己随意设定图片大小。</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>&lt;img src="images/G-FASE4.GIF" height=<font class="pword">32</font> width=<font class="pword">32</font>&gt;</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white"><img src="images/G-FASE4.GIF" height="32" width="32"></td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141" width="60">加上说明</td>
+                    <td class="whiteword" bgcolor="#666666">用法：&lt;img src="图档"&nbsp;alt="说明文字"&gt;<br>
+                      滑鼠一到图上时，说明文字就会自动出现。此外，在图片未显示出来或显示不出来时，也会以这一段字代替，让使用者知道这个未显示出来的图片究竟是干嘛用的。</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>&lt;img src="images/G-FASE4.GIF" <font class="pword">alt="本站特约模特儿"</font>&gt;移到图上看看。</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white"><img alt="本站特约模特儿" src="images/G-FASE4.GIF" height="32" width="32">移到图上看看。</td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141" width="60">图片位置</td>
+                    <td class="whiteword" bgcolor="#666666">用法：&lt;img src="图档"&nbsp;align="位置"&gt;<br>
+                      图片位置设定！可以靠左放：align=left、靠上align=top、靠下align=bottom、垂直置中align=middle，其中靠左放可以造成‘文绕图’的效果。</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>&lt;img src="images/G-FASE4.GIF" <font class="pword">align=right</font>&gt;嗨！我往右边靠！</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white"><img src="images/G-FASE4.GIF" align="right" height="32" width="32">嗨！我往右边靠！</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>&lt;img src="images/G-FASE4.GIF" <font class="pword">align=left</font>&gt;嗨！我往左边靠！</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white"><img src="images/G-FASE4.GIF" align="left" height="32" width="32">嗨！我往左边靠！</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>&lt;img src="images/G-FASE4.GIF" <font class="pword">align=top</font>&gt;文字对齐我头顶！</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white"><img src="images/G-FASE4.GIF" align="top" height="32" width="32">文字对齐我头顶！</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>&lt;img src="images/G-FASE4.GIF" <font class="pword">align=bottom</font>&gt;文字对齐我脚底！</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white"><img src="images/G-FASE4.GIF" align="bottom" height="32" width="32">文字对齐我脚底！</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>&lt;img src="images/G-FASE4.GIF" <font class="pword">align=middle</font>&gt;文字对齐我中间！</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white"><img src="images/G-FASE4.GIF" align="middle" height="32" width="32">文字对齐我中间！</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>&lt;img src="images/G-FASE4.GIF" <font class="pword">align=absmiddle</font>&gt;文字对齐我绝对中间！</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white"><img src="images/G-FASE4.GIF" align="absmiddle" height="32" width="32">文字对齐我绝对中间！</td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141" width="60">边框设定</td>
+                    <td class="whiteword" bgcolor="#666666">用法：&lt;img src="图档"&nbsp;border="边框粗细"&gt;<br>
+                      设定边框大小，通常都设成 0 感觉比较美观啦！因为内定的框框实在是不怎么漂亮....。尤其在连结时，设框框简直是丑毙了...。</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>&lt;img src="images/G-FASE4.GIF" <font class="pword">border="4"</font>&gt;</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white"><img src="images/G-FASE4.GIF" border="4" height="32" width="32"></td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141" width="60">左右间距</td>
+                    <td class="whiteword" bgcolor="#666666">用法：&lt;img src="图档"&nbsp;hspace="离左右物件的距离"&gt;<br>
+                      离文字的水平距离，通常多少也设一点，以免靠文字太近，看起来才不会有太挤的感觉。</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>左边的字&lt;img src="images/G-FASE4.GIF" <font class="pword">hspace="15"</font>&gt;右边的字</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white">左边的字<img src="images/G-FASE4.GIF" height="32" hspace="15" width="32">右边的字</td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141" width="60">上下间距</td>
+                    <td class="whiteword" bgcolor="#666666">用法：&lt;img src="图档"&nbsp;vspace="离上下物件的距离"&gt;<br>
+                      离文字的垂直距离，通常多少也设一点，以免靠文字太近，看起来才不会有太挤的感觉。</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>上面的字&lt;br&gt;&lt;img src="images/G-FASE4.GIF" <font class="pword">vspace="15"</font>&gt;&lt;br&gt;下面的字</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white">上面的字<br>
+                      <img src="images/G-FASE4.GIF" height="32" vspace="15" width="32"><br>
+                      下面的字</td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p>由于此网页有用css控制版面图文，故在netscape下观看，会稍有不正确。 </p>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【网页影像重要观念】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li><b>关于路径：</b>现
+在我们来谈谈图片路径的事，路径不对，不管您的网页名称写的多正确也没用，因为浏览器无法寻着您的路径去找到该有的图片，所以，我们来看看该如何正确的使
+用路径。有些人并不喜欢将网页及图通通放在同一个目录下，比如说有人将图档全放在c:\images里，而网页档放在c:\demo里，这样子的话，我们
+该如何正确的写图片的路径呢？我将几种常见的情形整理成下表：<br>
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080">html档的位置</td>
+                    <td class="whiteword" bgcolor="#808080">图档的位置</td>
+                    <td class="whiteword" bgcolor="#808080">写法</td>
+                    <td class="whiteword" bgcolor="#808080">情形说明 </td>
+                  </tr>
+                  <tr> 
+                    <td>c:\demo</td>
+                    <td>c:\demo</td>
+                    <td>&lt;img src="tad.gif"&gt;</td>
+                    <td>图文均在同一目录 </td>
+                  </tr>
+                  <tr> 
+                    <td>c:\demo</td>
+                    <td>c:\demo\images</td>
+                    <td>&lt;img src="images/tad.gif"&gt;</td>
+                    <td>图在网页下一层目录 </td>
+                  </tr>
+                  <tr> 
+                    <td>c:\demo</td>
+                    <td>c:\</td>
+                    <td>&lt;img src=" ../tad.gif"&gt;</td>
+                    <td>图在网页上一层 </td>
+                  </tr>
+                  <tr> 
+                    <td>c:\demo</td>
+                    <td>c:\image</td>
+                    <td>&lt;img src=" image/tad.gif"&gt;</td>
+                    <td>图文在同一层但不同目录 </td>
+                  </tr>
+                   
+                </tbody></table>
+                <p><font class="blueword">或许有人看到不明就理，我来说明一下，“../”是回到上一层目录的意思。“images/”则是进入下一层目录image之意，而“images/”的意思就是，回到上一层目录，然后再进入目录images中。以上我们使用的均为“<font color="#ff0000">相对路径</font>”的概念。</font> 
+                </p><p></p>
+              <font class="fix"> 
+              </font></li><font class="fix"><li><b>影像单位：</b>或
+许您会常常看到px这个单位，没错，这是我们在制作最常用的一个单位了。这个单位完整的写法是“pixels”，我们称之为“像素”。像素，是荧幕上的一
+个小光点，然而这一小光点的大小，并非是固定的，举个例子而言，荧幕本身十五吋，不会因为你的任何设定而变成十七吋。但是，其解析度是可以改变的，我们常
+见的解析度有以下几种：“640 ×480”、“800 ×600”、“1024 ×768”。举其中之一的640
+×480来说，其代表的就是在荧幕上有宽640个光点，高有480光点，若是我们将解析度调整为800
+×600其宽势必要从640变成800个光点，也因此，该光点便会变小一点，所以，我们看起来就会觉得解析度调高后，荧幕内的东西，变得小小的，很精致，
+那就是因为光点变小的原因。 <p></p>
+              </li></font> 
+              <li><font class="fix"><b>影像格式：</b>网
+页用的图档目前只有gif格式（即副档名为gif的图档，如：bg.gif）以及jpg格式（即副档名为jpg的图档，如：bg.jpg）为一般的浏览器
+所接受。其他如bmp格式或是pcx格式都是无法在网页上使用的，若非得要用，那就利用影像绘图软体来作格式的转换吧！</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="gray">图档范例</td>
+                    <td class="whiteword" bgcolor="#808080">说明 </td>
+                  </tr>
+                  <tr> 
+                    <td bgcolor="#ffffff"><img src="images/frontpag.gif" border="0" height="31" width="88"></td>
+                    <td>gif格式的图形只能以256个颜色显示，虽然其色彩较少，但颜色鲜艳亮丽，若是图形颜色不多，用gif格式存档会较漂亮。 
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td align="center" bgcolor="#ffffff"><img src="images/mm1.jpg" border="0" height="52" width="52"></td>
+                    <td>jpg格式的图形是以全彩显示，适合用在相片或是渐层颜色的图片上，压缩比例以75%为适中。 </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li>
+            </ol>
+          </td>
+        </tr>
+         
+      </tbody></table>
+      <a name="t7"></a> 
+      <p class="BG_LightGry"><b><span class="T3">4.7 <font color="#cc6600">背景标签 
+        </font></span><font color="#cc6600"><span class="Cont3">&lt;<a href="#tagindex">回细说索引</a>&gt;</span></font></b></p>
+      <table align="center" cellpadding="6" cellspacing="0" width="100%">
+         
+        <tbody><tr> 
+          <td><font class="title">【背景标签】</font> 
+            <p>说穿了，背景标签只有&lt;BODY&gt;这个标签，其余的效果，只要加上一些简单的属性便可做到。 
+            </p><p> 
+            </p><ol>
+              <p> 
+              </p><li><b>使用方法：</b><font class="pword">&lt;body bgcolor="#ffffff" background="bg.jpg"</font><font class="pword">&gt;</font> 
+                <p></p>
+              </li><li><b>标签解说：</b>这个标签其实应该老早就要讲了，毕竟它是构成网页不可或缺的基本要素之一<font class="redword">（哎哎哎...现在放马后炮有什么用！）</font>。我们背景颜色或图片的设定以及连结字体的颜色，通通都放在&lt;body&gt;这标签里面。我就其属性来一一解说： 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141" width="60">背景颜色</td>
+                    <td class="whiteword" bgcolor="#666666">用法：&lt;body bgcolor="颜色码"&gt;<br>
+                      设定背景颜色。有人会说：‘我已经设定了背景图片，那背景颜色还有用吗？’当然有用！当使用者连结到贵站时，若背景图案还没传输完之前（有的背景图蛮大的），就会先显现背景颜色，您说，是不是比一片灰灰的好看多了呢！</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>&lt;html&gt;<br>
+                      &lt;head&gt;<br>
+                      &lt;title&gt;这是标题&lt;/title&gt;<br>
+                      &lt;/head&gt; 
+                      <p>&lt;body <font class="pword">bgcolor="#f9e6a2"</font>&gt; 
+                      </p><p>这里是本文区 
+                      </p><p>&lt;/body&gt;<br>
+                        &lt;/html&gt;</p>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white"><a href="http://dob.tnc.edu.tw/authorHD/1/demo1-10-1.htm" target="_blank">按下此处观看结果</a></td>
+                  </tr>
+                   
+                </tbody></table>
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141" width="60">背景图案</td>
+                    <td class="whiteword" bgcolor="#666666">用法：&lt;body background="图档名称、路径"&gt;<br>
+                      g设定背景图案。图档可以是jpg或gif格式的图档，我建议：图档不要太大，否则网页载入会蛮慢的。</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>&lt;html&gt;<br>
+                      &lt;head&gt;<br>
+                      &lt;title&gt;这是标题&lt;/title&gt;<br>
+                      &lt;/head&gt; 
+                      <p>&lt;body <font class="pword">background="bg.jpg"</font>&gt; 
+                      </p><p>这里是本文区 
+                      </p><p>&lt;/body&gt;<br>
+                        &lt;/html&gt;</p>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white"><a href="http://dob.tnc.edu.tw/authorHD/1/demo1-10-2.htm" target="_blank">按下此处观看结果</a></td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【内文、连结文字颜色设定】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li><b>使用方法：</b><font class="pword">&lt;body text="#000000" link="#0000ff" 
+                vlink="#ff00ff" alink="#ff0000</font><font class="pword">&gt;</font> 
+                <p></p>
+              </li><li><b>标签解说：</b>用字体标签中的颜色属性，可以设定文字的颜色，不过，却没有提到文字的颜色内定值该如何修改，这个&lt;body&gt;标签中，便有设定内文、连结等文字的颜色内定值功能。用法如下： 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141" width="60">内文颜色</td>
+                    <td class="whiteword" bgcolor="#666666">用法：&lt;body text="颜色码"&gt;<br>
+                      设定一般文字颜色，也就是说，若没有特别去设定文字颜色的话，浏览器就会自动显现您所设定的颜色。</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>&lt;html&gt;<br>
+                      &lt;head&gt;<br>
+                      &lt;title&gt;这是标题&lt;/title&gt;<br>
+                      &lt;/head&gt; 
+                      <p>&lt;body <font class="pword">text="#0906a2"</font>&gt; 
+                      </p><p>这里是本文区 
+                      </p><p>&lt;/body&gt;<br>
+                        &lt;/html&gt;</p>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white"><a href="http://chinese.allproducts.com.tw/GB/html/demo1-10-3.htm" target="_blank">按下此处观看结果</a></td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141" width="60">连结颜色</td>
+                    <td class="whiteword" bgcolor="#666666">用法：&lt;body link="颜色码"&gt;<br>
+                      设定“连结”的颜色。只要是有连结的地方就会出现你指定的颜色，当然，如果按下连结后，那又会变成另一个颜色了，这底下会说明。</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>&lt;html&gt;<br>
+                      &lt;head&gt;<br>
+                      &lt;title&gt;这是标题&lt;/title&gt;<br>
+                      &lt;/head&gt; 
+                      <p>&lt;body <font class="pword">link="#ff6600"</font>&gt; 
+                      </p><p>&lt;a href="index.htm"&gt;连结文字&lt;/a&gt; 
+                      </p><p>&lt;/body&gt;<br>
+                        &lt;/html&gt;</p>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white"><a href="http://chinese.allproducts.com.tw/GB/html/demo1-10-4.htm" target="_blank">按下此处观看结果</a>（设定连结为橘色）</td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141" width="60">连结时颜色</td>
+                    <td class="whiteword" bgcolor="#666666">用法：&lt;body alink="颜色码"&gt;<br>
+                      设定“按下连结”的颜色，也就是当您滑鼠按下那连结的瞬间所呈现的颜色。</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>&lt;html&gt;<br>
+                      &lt;head&gt;<br>
+                      &lt;title&gt;这是标题&lt;/title&gt;<br>
+                      &lt;/head&gt; 
+                      <p>&lt;body <font class="pword">alink="#0099ff"</font>&gt; 
+                      </p><p>&lt;a href="index.htm"&gt;连结中文字&lt;/a&gt; 
+                      </p><p>&lt;/body&gt;<br>
+                        &lt;/html&gt;</p>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white"><a href="http://dob.tnc.edu.tw/authorHD/1/demo1-10-5.htm" target="_blank">按下此处观看结果</a>（滑鼠点下连结瞬间才会出现我们设定的浅蓝色）</td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#414141" width="60">已连结颜色</td>
+                    <td class="whiteword" bgcolor="#666666">用法：&lt;body vlink="颜色码"&gt;<br>
+                      设定“按下链结后”的颜色，也就是如果该连结已经有被按过了，那么就会呈现的颜色。如此的做法，是要让使用者容易识别到底哪些连结有去过了，哪些没去过。</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="gray" width="60">原始码</td>
+                    <td>&lt;html&gt;<br>
+                      &lt;head&gt;<br>
+                      &lt;title&gt;这是标题&lt;/title&gt;<br>
+                      &lt;/head&gt; 
+                      <p>&lt;body <font class="pword">vlink="red"</font>&gt; 
+                      </p><p>&lt;a href="demo1-10-6.htm"&gt;连结文字&lt;/a&gt; 
+                      </p><p>&lt;/body&gt;<br>
+                        &lt;/html&gt;</p>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td bgcolor="white"><a href="http://chinese.allproducts.com.tw/GB/html/demo1-10-6.htm" target="_blank">按下此处观看结果</a>（设定已执行过的连结以红色显示）</td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p>&nbsp;</p>
+              </li>
+            </ol>
+          </td>
+        </tr>
+         
+      </tbody></table>
+      <a name="t8"></a> 
+      <p class="BG_LightGry"><b><span class="T3">4.8 <font color="#cc6600">连结标签 
+        </font></span><font color="#cc6600"><span class="Cont3">&lt;<a href="#tagindex">回细说索引</a>&gt;</span></font></b></p>
+      <table align="center" cellpadding="6" cellspacing="0" width="100%">
+         
+        <tbody><tr> 
+          <td><font class="title">【<a name="m1">WWW连结标签基本概念</a>】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li><b>连结基本概念：</b>一般而言，所谓连结就是，在网页中有些字会有特别的颜色，而且字的底下会有条线，当游标移到那些字上时，会变成手指形状，按下去，则会连到别的文章或网站，<a href="http://dob.tnc.edu.tw/authorHD/1/d1-10.htm"><u>就像这样</u></a><font class="redword">（以上这段是给超级新手看的...）</font>。 
+                <p>扯到连结，最基本来看有<font color="#ff0080">‘内部连结’</font>及<font color="#ff0080">‘外部连结’</font>，所谓‘内部连结’就是自己网站间网页的连结，至于外部连结我们稍后再来讨论。 
+                </p><p>要了解内部连结，首先必须先了解一下这两种东西，一个是<font class="pword">‘相对路径’</font>，一个是<font class="pword">‘绝对路径’</font>。 
+                </p><p>现在假设一个情形：我们在自己的电脑里设计网页，所有网页相关的档案我们通通放在 c:\www 里面，现在假设 c:\www 
+                  里面目前有 index.htm 、 text1.htm 、 p1.gif 、 p2.gif 这四个档案。ok！ 
+                </p><p>现在我们想在 index.htm 里面设一个连结，能够按一下就连到 text1.htm，那我们该怎么做呢？基本上，有两中方式可以做到，在 
+                  index.htm 里面加上下面任一叙述： 
+                </p><p> 
+                <table border="0" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td bgcolor="#b0d8ff">&lt;a href="<font class="pword">/c|/www/text1.htm</font>"&gt;</td>
+                    <td bgcolor="#b0d8ff">这就是‘绝对路径’</td>
+                  </tr>
+                  <tr> 
+                    <td bgcolor="#e1f0ff">&lt;a href="<font class="pword">text1.htm</font>"&gt;</td>
+                    <td bgcolor="#e1f0ff">这就是‘相对路径’</td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p>瞧出什么端倪了没有？嗯嗯....没错，‘绝对路径’要给电脑一个非常详尽的位置，让电脑寻着这路径去找到档案。而‘相对路径’就简单多啦！如果没有特别指定，他就会直接在 
+                  index.htm 的<font class="pword">所在目录</font>下找，也就是在 c:\www 底下去找text1.htm。 
+                </p><p>如果说，今天我们将 c:\www 里所有的档案都上传到网路上的网页伺服器<font class="redword">（总不能做好了只给自己看吧！）</font>，且该伺服器是别人的电脑，而非你自己架设的主机，那么问题就来了！你猜，哪一种连结会出问题？呵呵...答案是‘绝对路径’，您猜对了吗？ 
+                </p><p>为什么说‘绝对路径’会出问题呢？因为，当您将档案上传到网路上时，您的整个网页目录架构一定会变，到时候，电脑可能找不到 
+                  c:\ <font class="redword">（尤其是unix系列的主机）</font>更可能找不到 www 这目录<font class="redword">（有些会规定要放在特定的目录下才能显示网页）</font>，所以说，没事的话，尽量用‘相对路径’来作连结吧！好写又不容易出错。 
+                </p><p>另外一个情形是：为了整理方便，有些网友喜欢将图档通通放到同一个目录下，如：c:\www\gif\ 底下放进了p1.gif 
+                  、 p2.gif两个图，而index.htm 、 text1.htm 依旧在 c:\www 底下。现在我们想在 index.htm 
+                  下设个连结到 p1.gif 这图档<font class="redword">（连结不限于只能连html档，图档、文字档均可）</font>，那我们又该如何来使用‘相对路径’呢？他们又不在‘同一个目录’下...？ 
+                </p><p> 
+                <table border="0" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td bgcolor="#b0d8ff">&lt;a href="<font class="pword">/c|/www/gif/p1.gif</font>"&gt;</td>
+                    <td bgcolor="#b0d8ff">这是‘绝对路径’的写法</td>
+                  </tr>
+                  <tr> 
+                    <td bgcolor="#e1f0ff">&lt;a href="<font class="pword">gif/p1.gif</font>"&gt;</td>
+                    <td bgcolor="#e1f0ff">这是‘相对路径’的写法</td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p>如何？不难吧！<font class="redword">（只是字有点多，看到脑子发胀）</font> </p>
+              </li>
+            </ol>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <ol start="2">
+              <p> 
+              </p><li><b>总整理：</b>很乱吗？嗯...看看这表，或许会清楚些。 
+                <p> 
+                <table align="center" border="0" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr bgcolor="#0080ff"> 
+                    <td><font class="whiteword">相对路径表示方式</font></td>
+                    <td><font class="whiteword">代表连结位置</font></td>
+                  </tr>
+                  <tr bgcolor="#e6f2ff"> 
+                    <td>&lt;a href="text1.htm"&gt;</td>
+                    <td>text1.htm在目前的目录中<font class="redword">（就例子而言，就是在c:\www中）</font></td>
+                  </tr>
+                  <tr bgcolor="#b0d8ff"> 
+                    <td>&lt;a href="docs/text1.htm"&gt;</td>
+                    <td>text1.htm在名为docs的<font class="pword">次目录</font>中<font class="redword">（就本例而言，就是在c:\www\docs中）</font></td>
+                  </tr>
+                  <tr bgcolor="#e6f2ff"> 
+                    <td>&lt;a href="../text1.htm"&gt;</td>
+                    <td>text1.htm在目前目录的上一层目录中<font class="redword">（就本例而言，就是在c:\底下了）</font></td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【<a name="m2">网页内部的连结</a>】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li><b>使用方法：</b> 
+                <ol>
+                  <p> 
+                  </p><li><b>先在欲连结处作记号：</b><font class="pword">&lt;a name="here1"&gt;</font><font class="gword">这里是你想连结的点</font><font class="pword">&lt;/a&gt;</font> 
+                    <p></p>
+                  </li><li><b>设定连结：</b><font class="pword">&lt;a href="#here1"&gt;</font><font class="gword">连结</font><font class="pword">&lt;/a&gt;</font> </li>
+                </ol>
+                <p></p>
+              </li><li><b>标签解说：</b>有时候，当某页的内容很多时，我们可以利用网页的内部连结，来使使用者快速的找到资料。其原理不过是：在欲连结处做个记号<font class="redword">（网页的任何地方都可以喔！）</font>，然后，连结时就寻这记号，就可以快速找到资料。很简单吧！ 
+                <p></p>
+              </li><li><b>使用范例：</b> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr bgcolor="#808080"> 
+                    <td class="whiteword">范例</td>
+                    <td class="whiteword">第一步骤</td>
+                    <td class="whiteword">第二步骤</td>
+                  </tr>
+                  <tr> 
+                    <td><a href="http://dob.tnc.edu.tw/authorHD/1/#m1">www连结标签基本概念</a></td>
+                    <td>&lt;a name="m1"&gt;欲连结的位置&lt;/a&gt;</td>
+                    <td>&lt;a href="#m1"&gt;www连结标签基本概念&lt;/a&gt;</td>
+                  </tr>
+                  <tr> 
+                    <td><a href="http://dob.tnc.edu.tw/authorHD/1/#m2">网页内部的连结</a></td>
+                    <td>&lt;a name="m2"&gt;欲连结的位置&lt;/a&gt;</td>
+                    <td>&lt;a href="#m2"&gt;网页内部的连结&lt;/a&gt;</td>
+                  </tr>
+                  <tr> 
+                    <td><a href="http://dob.tnc.edu.tw/authorHD/1/#m3">网页外部的连结</a></td>
+                    <td>&lt;a name="m3"&gt;欲连结的位置&lt;/a&gt;</td>
+                    <td>&lt;a href="#m3"&gt;网页外部的连结&lt;/a&gt;</td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【<a name="m3">网页外部的连结</a>】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li><b>标签解说：</b>连结到外面去，可以扩充您网站的实用性及充实性，也正因这功能，才造就了www五彩缤纷的世界。由于网路上的服务五花八门，所以不同的服务有不同的连结方法，我将之整理在下表。 
+                <p></p>
+              </li><li><b>使用范例：</b> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080">网站连结</td>
+                    <td><a href="http://sunspot-design.com/">好站</a></td>
+                    <td>&lt;a href="<font class="pword">http://sunspot-design.com</font>"&gt;好站&lt;/a&gt;</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">电子邮件连结</td>
+                    <td><a href="mailto:tad@ms1.url.com.tw">写情书给我</a></td>
+                    <td>&lt;a href="<font class="pword">mailto:tad@ms1.url.com.tw</font>"&gt;写情书给我&lt;/a&gt;</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">ftp连结</td>
+                    <td><a href="ftp://ftp.ntu.edu.tw/">下载档案</a></td>
+                    <td>&lt;a href="<font class="pword">ftp://ftp.ntu.edu.tw</font>"&gt;下载档案&lt;/a&gt;</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">news连结</td>
+                    <td><a href="news:news.seed.net.tw">seednet news服务</a></td>
+                    <td>&lt;a href="<font class="pword">news:news.seed.net.tw</font>"&gt;seednet 
+                      news服务&lt;/a&gt;</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">gopher连结</td>
+                    <td><a href="gopher://gopher.seed.net.tw/">seednet gopher服务</a></td>
+                    <td>&lt;a href="<font class="pword">gopher://gopher.seed.net.tw/</font>"&gt;seednet 
+                      gopher服务&lt;/a&gt;</td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">bbs连结</td>
+                    <td><a href="telnet://bbs.seed.net.tw/">seednet gopher服务</a></td>
+                    <td>&lt;a href="<font class="pword">telnet://bbs.seed.net.tw/</font>"&gt;seednet 
+                      bbs服务&lt;/a&gt;</td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【连结标签的参数】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li><b>使用方法：</b>在连结后面加入 target=_参数 
+                <p></p>
+              </li><li><b>标签解说：</b>连结的参数并不多，常见的大概就属 target 这参数了，target 的意思是‘目标’，也就是网页连结的指向目标，这参数在框窗（frame）里尤为重要！ 
+                <p></p>
+              </li><li><b>使用范例：</b> 
+                <ul>
+                  <p> 
+                  </p><li><font class="pword">target=框窗名称</font>：<br>
+                    这在‘框架标签’中也有提到，而且也只有在框架（框窗 or frame）中才用得到。正常而言，框窗有各自的名称，因此，我们可以利用此标签，来指定连结的内容显示到哪一个框窗中。 
+                    <p></p>
+                  </li><li><font class="pword">target=_blank</font>：<br>
+                    将连结的画面内容，开在新的浏览视窗中。 
+                    <p></p>
+                  </li><li><font class="pword">target=_parent</font>：<br>
+                    将连结的画面内容，当成文件的上一个画面。 
+                    <p></p>
+                  </li><li><font class="pword">target=_self</font>：<br>
+                    将连结的画面内容，显示在目前的视窗中。 
+                    <p></p>
+                  </li><li><font class="pword">target=_top</font>：<br>
+                    这个参数可以解决新连结的画面内容，被旧框窗包围的困扰，使用这参数，会将整个画面重新显示成连结的画面内容。 </li>
+                </ul>
+              </li>
+            </ol>
+          </td>
+        </tr>
+         
+      </tbody></table>
+      <a name="t9"></a> 
+      <p class="BG_LightGry"><b><span class="T3">4.9 <font color="#cc6600">表格标签 
+        </font></span><font color="#cc6600"><span class="Cont3">&lt;<a href="#tagindex">回细说索引</a>&gt;</span></font></b></p>
+      <table align="center" cellpadding="6" cellspacing="0" width="100%">
+         
+        <tbody><tr> 
+          <td><font class="title">【网页中的表格观念】</font> 
+            <p>举
+个例子来说，如果今天我们要做一个3栏2列的表格，在WORD中，只要设定表格为3栏、2列就完成了，不过，在网页中做一个3栏2列的表格，可是要分成好
+几个步骤的，第一个步骤，利用&lt;TABLE&gt;&lt;/TABLE&gt;标签告诉电脑我要做一个表格；第二个步骤，利用一
+组&lt;TR&gt;&lt;/TR&gt;标签先做一个横列，然后在横列中利用三组&lt;TD&gt;&lt;/TD&gt;标签再分出三栏；第三
+个步骤，重复第二个步骤，再做一横列然后再分三栏，如此才能得到一个3栏2列的表格。听不太懂吗？没关系，以下咱们就来慢慢的看个仔细： </p><p> 
+            </p><ol>
+              <li>首先我们来看一个最简单的表格： 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;TABLE BORDER=1&gt;<br>
+                      <font class="pword">&lt;TR&gt;</font><font class="blueword">&lt;TD&gt;</font>1<font class="blueword">&lt;/TD&gt;</font><font class="pword">&lt;/TR&gt;</font><br>
+                      &lt;/TABLE&gt;<br>
+                    </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table border="1">
+                         
+                        <tbody><tr> 
+                          <td>1</td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p>利用&lt;TABLE&gt;这个标签来告诉电脑，这是一个表格，至于 BORDER=1 这参数是设定此表格的框线粗细为 
+                  1。一组&lt;TR&gt;&lt;/TR&gt;是设定一横列的开始。一组&lt;TD&gt;&lt;/TD&gt;则是设定一个栏位。当然，文字就是要摆在这里面。 
+                </p><p></p>
+              </li><li>现在我们再来增加二个格子： 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;TABLE BORDER=1&gt;<br>
+                      <font class="pword">&lt;TR&gt;</font><font class="blueword">&lt;TD&gt;</font>1<font class="blueword">&lt;/TD&gt;</font><font class="blueword">&lt;TD&gt;</font>2<font class="blueword">&lt;/TD&gt;</font><font class="blueword">&lt;TD&gt;</font>3<font class="blueword">&lt;/TD&gt;</font><font class="pword">&lt;/TR&gt;</font><br>
+                      &lt;/TABLE&gt;<br>
+                    </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table border="1">
+                         
+                        <tbody><tr> 
+                          <td>1</td>
+                          <td>2</td>
+                          <td>3</td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li><li>看见没有，&lt;TR&gt;&lt;/TR&gt;没有增加，<font class="blueword">&lt;TD&gt;</font><font class="blueword">&lt;/TD&gt;</font>却增加了二组。那如果我要再加上一列呢？很简单，就像这样： 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;TABLE BORDER=1&gt;<br>
+                      <font class="pword">&lt;TR&gt;</font><font class="blueword">&lt;TD&gt;</font>1<font class="blueword">&lt;/TD&gt;</font><font class="blueword">&lt;TD&gt;</font>2<font class="blueword">&lt;/TD&gt;</font><font class="blueword">&lt;TD&gt;</font>3<font class="blueword">&lt;/TD&gt;</font><font class="pword">&lt;/TR&gt;</font><br>
+                      <font class="pword">&lt;TR&gt;</font><font class="blueword">&lt;TD&gt;</font>4<font class="blueword">&lt;/TD&gt;</font><font class="blueword">&lt;TD&gt;</font>5<font class="blueword">&lt;/TD&gt;</font><font class="blueword">&lt;TD&gt;</font>6<font class="blueword">&lt;/TD&gt;</font><font class="pword">&lt;/TR&gt;</font><br>
+                      &lt;/TABLE&gt;<br>
+                    </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table border="1">
+                         
+                        <tbody><tr> 
+                          <td>1</td>
+                          <td>2</td>
+                          <td>3</td>
+                        </tr>
+                        <tr> 
+                          <td>4</td>
+                          <td>5</td>
+                          <td>6</td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【合并表格栏位】</font> 
+            <p> 
+            </p><ol>
+              <li>并
+非所有的表格都是规规矩矩的只有几栏、几列而已，有时候，我们还会希望能够“合并栏位”，让表格更美观、更实用一点，而谈到“合并栏位”，我们就必须知
+道，合并的方向有两种：一种是上下合并（也就是横列间的合并），一种是左右合并（也就是直栏间的合并），这两种合并方式各有不同的属性设定方法。 <p></p>
+              </li><li>左右栏位合并：基本上，您的表格已经学会啰！接下来，咱们就来看看，如何将 1、2、3 格通通合并变成一大格： 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="70%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="30%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;TABLE BORDER=1&gt;<br>
+                      &lt;TR&gt;&lt;TD <font class="pword">COLSPAN=3</font>&gt;1&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;TR&gt;&lt;TD&gt;4&lt;/TD&gt;&lt;TD&gt;5&lt;/TD&gt;&lt;TD&gt;6&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;/TABLE&gt;<br>
+                    </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table border="1">
+                         
+                        <tbody><tr> 
+                          <td colspan="3">1</td>
+                        </tr>
+                        <tr> 
+                          <td>4</td>
+                          <td>5</td>
+                          <td>6</td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p><font class="blueword">您
+应该会发现，怎么2、3都消失了？只剩下1，而且该栏的&lt;TD&gt;标签还多了一个陌生的脸孔COLSPAN="3"，没错，这就是“左右栏位合
+并”的属性，COLSPAN="3"的意思就是“这个栏位左右横跨了3个栏位”，也正因如此，本来的两个&lt;TD&gt;都可以省掉了，因为都被并掉
+了嘛！</font> 
+                </p><p></p>
+              </li><li> <font class="fix">上下栏位合并：学会了左右合并！接下来，咱们就来看看，如何上下合并，将 1、4格通通合并变成一大格：</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="70%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="30%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;TABLE BORDER=1&gt;<br>
+                      &lt;TR&gt;&lt;TD <font class="pword">ROWSPAN=2</font>&gt;1&lt;/TD&gt;&lt;TD&gt;2&lt;/TD&gt;&lt;TD&gt;3&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;TR&gt;&lt;TD&gt;5&lt;/TD&gt;&lt;TD&gt;6&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;/TABLE&gt;<br>
+                    </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table border="1">
+                         
+                        <tbody><tr> 
+                          <td rowspan="2">1</td>
+                          <td>2</td>
+                          <td>3</td>
+                        </tr>
+                        <tr> 
+                          <td>5</td>
+                          <td>6</td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p><font class="blueword">有
+了上一次的经验后，我们就知道，要合并栏位就一定有些栏位会被“牺牲”掉（也就是那些被合并的栏位啦！），这次我们要“上下合并”，我们将1与4合并成一
+个栏位，那么被牺牲的是哪一个栏位呢？没错就是下面那一个倒楣的4，我们看看上图，果然4已经删掉了，而在1的&lt;TD&gt;标签中则多了个生面孔
+ROWSPAN，这就是“上下栏位合并”的属性，ROWSPAN=2的意思就是“这个栏位上下连跨了2个栏位”，其结果如下：</font> 
+                </p><p> 
+                </p><p></p>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【表格栏位对齐位置设定】</font> 
+            <p> 
+            </p><ol>
+              <li>我可以自己设定表格的大小吗？当然可以，您可以自由设定表格的“宽”及“高”喔！我们来制作一个宽100、高60的表格，做法如下： 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="70%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="30%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;TABLE <font class="PWORD">WIDTH="100"</font> BORDER="1" 
+                      <font class="PWORD">HEIGHT="60"</font>&gt;<br>
+                      &lt;TR&gt;&lt;TD&gt;1&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;/TABLE&gt; </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table border="1" height="60" width="100">
+                         
+                        <tbody><tr> 
+                          <td>1</td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li><li> <font class="fix">哎呀！怎么 1 老是在表格的左边呢？可以弄到中间吗？当然可以，只要在&lt;TD&gt;加入 
+                ALIGN=CENTER 这参数即可：</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="70%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="30%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;TABLE WIDTH="100" BORDER="1" HEIGHT="60"&gt;<br>
+                      &lt;TR&gt;&lt;TD <font class="PWORD">ALIGN=CENTER</font>&gt;1&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;/TABLE&gt; </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table border="1" height="60" width="100">
+                         
+                        <tbody><tr> 
+                          <td align="middle">1</td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p><font class="BLUEWORD">此
+外，利用 ALIGN=RIGHT可以让表格中物件置右、利用
+ALIGN=LEFT可以让表格中物件置左（预设值），至于为什么要加在&lt;TD&gt;中呢？因为，&lt;TD&gt;是一个栏位的意思，我们要
+指定在这栏位中的东西要置中或置左置右，就必须将ALIGN加在&lt;TD&gt;中。</font> 
+                </p><p></p>
+              </li><li> <font class="fix">既然可以置中，那么也可以控制表格内文字靠上方、靠下方吗？可以的，只要利用 VALIGN=TOP 
+                这种属性即可让表格内物件靠上方对齐。</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="70%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="30%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;TABLE WIDTH="100" BORDER="1" HEIGHT="60"&gt;<br>
+                      &lt;TR&gt;&lt;TD ALIGN=CENTER <font class="PWORD">VALIGN=TOP</font>&gt;1&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;/TABLE&gt; </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table border="1" height="60" width="100">
+                         
+                        <tbody><tr> 
+                          <td align="middle" valign="top">1</td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p><font class="BLUEWORD">利用VALIGN=MIDDLE可以让表格中物件垂直置中（预设值），VALIGN=BOTTOM可以H让表格中物件靠下方。</font> 
+                </p><p> 
+                </p><p></p>
+              </li>
+            </ol>
+          </td>
+        </tr>
+         
+      </tbody></table>
+      <table align="center" cellpadding="6" cellspacing="0" width="100%">
+         
+        <tbody><tr> 
+          <td><font class="title">【表格背景、底色设定】</font> 
+            <p> 
+            </p><ol>
+              <li>那么表格可以设定底色吗？可以的不但表格可以，您也可以指定某栏或某列的颜色，方法和加背景颜色一样，利用BGCOLOR="颜色码"就行了。底下是指定整格表格背景颜色的方法： 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="70%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="30%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;TABLE BORDER="1" <font class="PWORD">BGCOLOR=#FFCC33</font>&gt;<br>
+                      &lt;TR&gt;&lt;TD&gt;1&lt;/TD&gt;&lt;TD&gt;2&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;TR&gt;&lt;TD&gt;3&lt;/TD&gt;&lt;TD&gt;4&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;/TABLE&gt; </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table bgcolor="#ffcc33" border="1">
+                         
+                        <tbody><tr> 
+                          <td>1</td>
+                          <td>2</td>
+                        </tr>
+                        <tr> 
+                          <td>3</td>
+                          <td>4</td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p><font class="BLUEWORD">将BGCOLOR="颜色码"加在&lt;TR&gt;中，可以指定“一列”的背景颜色：</font> 
+                </p><p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="70%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="30%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;TABLE BORDER="1" &gt;<br>
+                      &lt;TR <font class="PWORD">BGCOLOR=#FFCC33</font>&gt;&lt;TD&gt;1&lt;/TD&gt;&lt;TD&gt;2&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;TR&gt;&lt;TD&gt;3&lt;/TD&gt;&lt;TD&gt;4&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;/TABLE&gt; </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table border="1">
+                         
+                        <tbody><tr bgcolor="#ffcc33"> 
+                          <td>1</td>
+                          <td>2</td>
+                        </tr>
+                        <tr> 
+                          <td>3</td>
+                          <td>4</td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p><font class="BLUEWORD">将BGCOLOR="颜色码"加在&lt;TD&gt;中，可以指定“一栏”的背景颜色：</font> 
+                </p><p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="70%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="30%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;TABLE BORDER="1" &gt;<br>
+                      &lt;TR&gt;&lt;TD <font class="PWORD">BGCOLOR=#FFCC33</font>&gt;1&lt;/TD&gt;&lt;TD&gt;2&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;TR&gt;&lt;TD&gt;3&lt;/TD&gt;&lt;TD&gt;4&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;/TABLE&gt; </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table border="1">
+                         
+                        <tbody><tr> 
+                          <td bgcolor="#ffcc33">1</td>
+                          <td>2</td>
+                        </tr>
+                        <tr> 
+                          <td>3</td>
+                          <td>4</td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li><li> <font class="fix">表格除了可以设定底色外，也可以用图片来作背景吗？当然可以，方法一样简单，只要将BACKGROUND="图片名称"加到表格中就行了。和表格背景颜色一样，不但表格可以设定背景图片，您也可以指定某栏或某列的背景图片：</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="70%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="30%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;TABLE BORDER="1" <font class="PWORD">BGCOLOR=#FFCC33</font>&gt;<br>
+                      &lt;TR&gt;&lt;TD&gt;1&lt;/TD&gt;&lt;TD&gt;2&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;TR&gt;&lt;TD&gt;3&lt;/TD&gt;&lt;TD&gt;4&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;/TABLE&gt; </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table background="" border="1">
+                         
+                        <tbody><tr> 
+                          <td>1</td>
+                          <td>2</td>
+                        </tr>
+                        <tr> 
+                          <td>3</td>
+                          <td>4</td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p><font class="BLUEWORD">将BACKGROUND="图片名称"加在&lt;TD&gt;中，可以指定“一栏”的背景颜色：</font> 
+                </p><p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="70%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="30%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;TABLE BORDER="1"&gt;<br>
+                      &lt;TR&gt;&lt;TD <font class="PWORD">BGCOLOR=#FFCC33</font>&gt;1&lt;/TD&gt;&lt;TD&gt;2&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;TR&gt;&lt;TD&gt;3&lt;/TD&gt;&lt;TD&gt;4&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;/TABLE&gt; </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table border="1">
+                         
+                        <tbody><tr> 
+                          <td background="">1</td>
+                          <td>2</td>
+                        </tr>
+                        <tr> 
+                          <td>3</td>
+                          <td>4</td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【表格框线设定】</font> 
+            <p> 
+            </p><ol>
+              <li>如何设定表格粗细？只要利用BORDER="粗细值"就行了。 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="70%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="30%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;TABLE <font class="pword">BORDER=5</font>&gt;<br>
+                      &lt;TR&gt;&lt;TD&gt;1&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;/TABLE&gt;<br>
+                    </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table border="5">
+                         
+                        <tbody><tr> 
+                          <td>1</td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li><li> <font class="fix">如何设定表格颜色？只要利用BORDERCOLOR="颜色码"就行了。</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="70%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="30%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;TABLE BORDER="5" <font class="pword">BORDERCOLOR="#0080FF"</font>&gt;<br>
+                      &lt;TR&gt;&lt;TD&gt;1&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;/TABLE&gt;<br>
+                    </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table border="5" bordercolor="#0080ff">
+                         
+                        <tbody><tr> 
+                          <td>1</td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li><li> <font class="fix">另外，我们也可以设定表格的阴影、亮面颜色，让表格看起来更有立体感喔！只要利用 BORDERCOLORLIGHT="#颜色码"（亮面设定） 
+                BORDERCOLORDARK="颜色码"（暗面设定）就行了。</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="70%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="30%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;TABLE BORDER="5" BORDERCOLOR="#0080FF" <font class="pword">BORDERCOLORLIGHT="#62B0FF" BORDERCOLORDARK="#004B97"</font>&gt;<br>
+                      &lt;TR&gt;&lt;TD&gt;1&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;/TABLE&gt;<br>
+                    </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table bordercolordark="#004b97" bordercolorlight="#62b0ff" border="5" bordercolor="#0080ff">
+                         
+                        <tbody><tr> 
+                          <td>1</td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【表格栏距设定】</font> 
+            <p> 
+            </p><ol>
+              <li>我们可以利用CELLPADDING属性自由设定表格内文距离格线的距离，这个属性很好用，保持适当的距离，看起来比较舒服。一般而言内定值为2，不过我建议设定为4比较漂亮。 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="70%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="30%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;TABLE BORDER="1" <font class="pword">CELLPADDING="10"</font>&gt;<br>
+                      &lt;TR&gt;&lt;TD&gt;1&lt;/TD&gt;&lt;TD&gt;2&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;/TABLE&gt;<br>
+                    </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table border="1" cellpadding="10">
+                         
+                        <tbody><tr> 
+                          <td>1</td>
+                          <td>2</td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li><li> <font class="fix">我们可以利用CELLSPACING属性设定表格栏位格线之间的距离。一般而言内定值为2，不过我通常习惯设为 
+                0 。</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="70%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="30%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;TABLE BORDER="1" <font class="pword">CELLSPACING="5"</font>&gt;<br>
+                      &lt;TR&gt;&lt;TD&gt;1&lt;/TD&gt;&lt;TD&gt;2&lt;/TD&gt;&lt;/TR&gt;<br>
+                      &lt;/TABLE&gt;<br>
+                    </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table border="1" cellspacing="5">
+                         
+                        <tbody><tr> 
+                          <td>1</td>
+                          <td>2</td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                </p><p></p>
+              </li>
+            </ol>
+          </td>
+        </tr>
+         
+      </tbody></table>
+      <a name="t10"></a> 
+      <p class="BG_LightGry"><b><span class="T3">4.10 <font color="#cc6600">序列标签 
+        </font></span><font color="#cc6600"><span class="Cont3">&lt;<a href="#tagindex">回细说索引</a>&gt;</span></font></b></p>
+      <table align="center" cellpadding="6" cellspacing="0" width="100%">
+         
+        <tbody><tr> 
+          <td><font class="title">【无序标签】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li>序
+列标签基本上可分为两种，一种是“无序条列”，一种是“有序条列”。所谓“无序条列”当然就是意指各条列间并无顺序关系，纯粹只是利用条列式方法来呈现资
+料而已，此种无序标签，在各条列前面均有一符号以示区隔。至于“有序条列”就是指各条列之间是有顺序的，从1、2、3…一直延伸下去。 <p></p>
+              </li><li>我们先来看看“无序列表标签”如何使用： 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;UL&gt;<br>
+                      &lt;LI&gt;姓名：杰克升<br>
+                      &lt;LI&gt;生日：1974/11/21<br>
+                      &lt;LI&gt;星座：天蝎座<br>
+                      &lt;/UL&gt; </td>
+                    <td bgcolor="white" valign="center"> 
+                      <ul>
+                        <li>姓名：杰克升 
+                        </li><li>生日：1974/11/21 
+                        </li><li>星座：天蝎座</li>
+                      </ul>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p><font class="blueword">其中&lt;UL&gt;标签即为“无序列表标签”，每增加一列内容，就必须加一个&lt;LI&gt;。</font> 
+                </p><p></p>
+              </li><li> <font class="fix">前面的符号一定是要圆形的吗？不，我们可以加入TYPE="形状名称"属性来改变其符号形状，一共有三个选择：DISK（实心圆）、SQUARE（小正方形）、CIRCLE（空心圆）三种<font class="redword">（由于本页使用CSS故仅于Netscape看得出效果。）</font>：</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;UL <font class="pword">TYPE="CIRCLE"</font>&gt;<br>
+                      &lt;LI&gt;姓名：杰克升<br>
+                      &lt;LI&gt;生日：1974/11/21<br>
+                      &lt;LI&gt;星座：天蝎座<br>
+                      &lt;/UL&gt; </td>
+                    <td bgcolor="white" valign="center"> 
+                      <ul type="circle">
+                        <li>姓名：杰克升
+                        </li><li>生日：1974/11/21 
+                        </li><li>星座：天蝎座</li>
+                      </ul>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【有序标签】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li>接下来，我们来看看“有序列表标签”如何使用： 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;OL&gt;<br>
+                      &lt;LI&gt;姓名：杰克升<br>
+                      &lt;LI&gt;生日：1974/11/21<br>
+                      &lt;LI&gt;星座：天蝎座<br>
+                      &lt;/OL&gt; </td>
+                    <td bgcolor="white" valign="center"> 
+                      <ol>
+                        <li>姓名：杰克升 
+                        </li><li>生日：1974/11/21 
+                        </li><li>星座：天蝎座</li>
+                      </ol>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p><font class="blueword">其中&lt;OL&gt;标签即为“有序列表标签”，每增加一列内容，就必须加一个&lt;LI&gt;。</font> 
+                </p><p></p>
+              </li><li> <font class="fix">和无序列表标签一样，我们也可以选择不同的符号来显示顺序，一样是用TYPE属性来作更改，一更有五种符号：1（数字）、A（大写英文字母）、a（小写英文字母）、I（大写罗马字母）、i（小写罗马字母）等五种：</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;OL <font class="pword">TYPE="A"</font>&gt;<br>
+                      &lt;LI&gt;姓名：杰克升<br>
+                      &lt;LI&gt;生日：1974/11/21<br>
+                      &lt;LI&gt;星座：天蝎座<br>
+                      &lt;/OL&gt; </td>
+                    <td bgcolor="white" valign="center"> 
+                      <ol type="A">
+                        <li>姓名：杰克升
+                        </li><li>生日：1974/11/21 
+                        </li><li>星座：天蝎座</li>
+                      </ol>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li><li> <font class="fix">另外，我们亦可指定序列起始的数目，其方法如下：</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;OL <font class="pword">START="8"</font>&gt;<br>
+                      &lt;LI&gt;姓名：杰克升<br>
+                      &lt;LI&gt;生日：1974/11/21<br>
+                      &lt;LI&gt;星座：天蝎座<br>
+                      &lt;/OL&gt; </td>
+                    <td bgcolor="white" valign="center"> 
+                      <ol start="8">
+                        <li>姓名：杰克升
+                        </li><li>生日：1974/11/21 
+                        </li><li>星座：天蝎座</li>
+                      </ol>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【定义列表标签】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li>接下来我们要说明的这个标签，是“定义列表标签”也是属于序列标签之一。我们先来举个例子，我们常常会在文章中看见这样的格式： 
+                <table bgcolor="#fef2d8" border="0" cellpadding="10" cellspacing="0">
+                   
+                  <tbody><tr> 
+                    <td>CSS（Cascading style sheet） 
+                      <blockquote>CSS是由W3C于1996年12月所公布的一项新技术，什么叫做Cascading style 
+                        sheet？简单说来他是一种具有阶层性的形式设定，能够让网页设计者在设计网页时，对于网页上的任何物件均有更佳的操控性…</blockquote>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                <br>
+                网页里也有可以做到这种效果的标签喔！现在要来跟各位说的就是这个标签。咱们先来看看这标签的用法： 
+                <p></p>
+              </li><li>我们先来看看“定义列表标签”如何使用： 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="50%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="50%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;DL&gt;<br>
+                      &lt;DT&gt;小标题<br>
+                      &lt;DD&gt;标题的内容说明<br>
+                      &lt;/DL&gt; </td>
+                    <td bgcolor="white" valign="center"> 
+                      <dl> 
+                        <dt>小标题 
+                        </dt><dd>标题的内容说明</dd>
+                      </dl>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p></p>
+              </li>
+            </ol>
+          </td>
+        </tr>
+         
+      </tbody></table>
+      <a name="t11"></a> 
+      <p class="BG_LightGry"><b><span class="T3">4.11 <font color="#cc6600">表单标签 
+        </font></span><font color="#cc6600"><span class="Cont3">&lt;<a href="#tagindex">回细说索引</a>&gt;</span></font></b></p>
+      <table align="center" cellpadding="6" cellspacing="0" width="100%">
+         
+        <tbody><tr> 
+          <td><font class="title">【表单的用途】</font> 
+            <p>对于一般的网页设计初学者而言，表单功能其实并不常用，因为表单通常必须配合着CGI、JAVA Script程式或是ASP程式来运作，不然表单单独存在的意义并不大。不过，一旦有机会将表单运用到网页中时，您的网页将摆脱单向呈现，而开始迈入和使用者互动的阶段喔！ 
+            </p><p>本单元纯粹以介绍各式表单为主，至于一些CGI或ASP观念在此我就不提出了，因为提供零碎的观念，倒不如去看看专门介绍CGI的书籍来的妥当。 
+              <br>
+              <br>
+              <font class="title">【各种输入类型】</font> 
+            </p><p> 
+            </p><ol>
+              <p> 
+              </p><li><b>文字输入列</b>：每个表单之所以会有不同的类型，原因就在于TYPE="表单类型"设定的不同而已，我们就先来看看第一个类型：文字输入列。文字输入列的形态就是TYPE="TEXT，其使用方法如下： 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <form>
+                        姓名： 
+                        <input name="NAME">
+                      </form>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">原始码</td>
+                    <td>&lt;FORM&gt;<br>
+                      姓名：&lt;INPUT TYPE="<font class="PWORD">TEXT</font>" NAME="NAME" SIZE="20"&gt;<br>
+                      &lt;/FORM&gt; </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <font class="FIX"><font class="BLUEWORD">其有下列可设定之属性：</font> 
+                </font></p><ul>
+<font class="FIX">                  <li>NAME="名称"，是设定此一栏位的名称，程式中常会用到。 
+                  </li><li>SIZE="数值"，是设定此一栏位显现的宽度。 
+                  </li><li>VALUE="预设内容"，是设定此一栏位的预设内容。 
+                  </li><li>ALIGN="
+对齐方式"，是设定此一栏位的对齐方式，其值有：TOP（向上对齐）、MIDDLE（向中对齐）、BOTTOM（向下对齐）、RIGHT（向右对齐）、
+LEFT（向左对齐）、TEXTTOP（向文字顶部对齐）、BASELINE（向文字底部对齐）、ABSMIDDLE（绝对置中）、
+ABSBOTTOM（绝对置下）等。 </li><li>MAXLENGTH="数值"，是设定此一栏位可设定输入的最大长度。 </li>
+                </font></ul>
+<font class="FIX">                </font> 
+                <p> 
+                </p><hr>
+                <p></p>
+              </li><li> <font class="fix"><b>单选核取表单</b>：利用TYPE="RADIO"就会产生单选核取表单，单选核取表单通常是好几个选项一起摆出来供使用者点选，一次只能从中选一个，故为单选核取表单。</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <form>
+                        性别：男 
+                        <input value="BOY" name="SEX" type="radio">
+                        女 
+                        <input value="GIRL" name="SEX" type="radio">
+                      </form>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">原始码</td>
+                    <td>&lt;FORM&gt;<br>
+                      性别：<br>
+                      男 &lt;INPUT TYPE="<font class="PWORD">RADIO</font>" NAME="SEX" VALUE="BOY"&gt;<br>
+                      女 &lt;INPUT TYPE="<font class="PWORD">RADIO</font>" NAME="SEX" VALUE="GIRL"&gt;<br>
+                      &lt;/FORM&gt; </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <font class="FIX"><font class="BLUEWORD">其有下列可设定之属性：</font> 
+                </font></p><ul>
+<font class="FIX">                  <li>NAME="名称"，是设定此一栏位的名称，程式中常会用到。 
+                  </li><li>VALUE="内容"，是设定此一栏位的内容、值或是意义。 
+                  </li><li>ALIGN="
+对齐方式"，是设定此一栏位的对齐方式，其值有：TOP（向上对齐）、MIDDLE（向中对齐）、BOTTOM（向下对齐）、RIGHT（向右对齐）、
+LEFT（向左对齐）、TEXTTOP（向文字顶部对齐）、BASELINE（向文字底部对齐）、ABSMIDDLE（绝对置中）、
+ABSBOTTOM（绝对置下）等。 </li><li>CHECKED，是设定此一栏位为预设选取值。 </li>
+                </font></ul>
+<font class="FIX">                </font> 
+                <p> 
+                </p><hr>
+                <p></p>
+              </li><li> <font class="fix"><b>复选核取表单</b>：利用TYPE=" CHECKBOX "就会产生复选核取表单，复选核取表单通常是好几个选项一起摆出来供使用者点选，一次可以同时选好几个，故为复选核取表单。</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <form>
+                        喜好： 
+                        <input value="MOVIE" name="SEX" type="checkbox">
+                        电影 
+                        <input value="BOOK" name="SEX" type="checkbox">
+                        看书 
+                      </form>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">原始码</td>
+                    <td>&lt;FORM&gt;<br>
+                      喜好：<br>
+                      &lt;INPUT TYPE="<font class="PWORD">CHECKBOX</font>" NAME="SEX" VALUE="MOVIE"&gt;电影<br>
+                      &lt;INPUT TYPE="<font class="PWORD">CHECKBOX</font>" NAME="SEX" VALUE="BOOK"&gt;看书<br>
+                      &lt;/FORM&gt; </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <font class="FIX"><font class="BLUEWORD">其有下列可设定之属性：</font> 
+                </font></p><ul>
+<font class="FIX">                  <li>NAME="名称"，是设定此一栏位的名称，程式中常会用到。 
+                  </li><li>VALUE="内容"，是设定此一栏位的内容、值或是意义。 
+                  </li><li>ALIGN="
+对齐方式"，是设定此一栏位的对齐方式，其值有：TOP（向上对齐）、MIDDLE（向中对齐）、BOTTOM（向下对齐）、RIGHT（向右对齐）、
+LEFT（向左对齐）、TEXTTOP（向文字顶部对齐）、BASELINE（向文字底部对齐）、ABSMIDDLE（绝对置中）、
+ABSBOTTOM（绝对置下）等。 </li><li>CHECKED，是设定此一栏位为预设选取值。 </li>
+                </font></ul>
+<font class="FIX">                </font> 
+                <p> 
+                </p><hr>
+                <p></p>
+              </li><li> <font class="fix"><b>密码表单</b>：利用TYPE=" PASSWORD "就会产生一个密码表单，密码表单和文字输入表单长得几乎一样，差别就在于密码表单在输入时全部会以星号来取代输入的文字，以防他人偷窥。</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <form>
+                        请输入密码： 
+                        <input name="INPUT" type="password">
+                      </form>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">原始码</td>
+                    <td>&lt;FORM&gt;<br>
+                      请输入密码：&lt;INPUT TYPE="<font class="PWORD">PASSWORD</font>" NAME="INPUT"&gt;<br>
+                      &lt;/FORM&gt; </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <font class="FIX"><font class="BLUEWORD">其有下列可设定之属性：</font> 
+                </font></p><ul>
+<font class="FIX">                  <li>NAME="名称"，是设定此一栏位的名称，程式中常会用到。 
+                  </li><li>SIZE="数值"，是设定此一栏位显现的宽度。 
+                  </li><li>VALUE="预设内容"，是设定此一栏位的预设内容，不过呈现出来仍是星号。 
+                  </li><li>ALIGN="
+对齐方式"，是设定此一栏位的对齐方式，其值有：TOP（向上对齐）、MIDDLE（向中对齐）、BOTTOM（向下对齐）、RIGHT（向右对齐）、
+LEFT（向左对齐）、TEXTTOP（向文字顶部对齐）、BASELINE（向文字底部对齐）、ABSMIDDLE（绝对置中）、
+ABSBOTTOM（绝对置下）等。 </li><li>MAXLENGTH="数值"，是设定此一栏位可设定输入的最大长度。 </li>
+                </font></ul>
+<font class="FIX">                </font> 
+                <p> 
+                </p><hr>
+                <p></p>
+              </li><li> <font class="fix"><b>送出按钮</b>：通常我们表单填完之后，都会有一个送出按钮以及清除重写的按钮，分别是利用TYPE=" 
+                SUBMIT "及TYPE=" RESET "来产生，相当的简单易用。</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <form>
+                        <input value="送出资料" type="submit">
+                        <input value="重新填写" type="reset">
+                      </form>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">原始码</td>
+                    <td>&lt;FORM&gt;<br>
+                      &lt;INPUT TYPE="<font class="PWORD">SUBMIT</font>" VALUE="送出资料"&gt;<br>
+                      &lt;INPUT TYPE="<font class="PWORD">RESET</font>" VALUE="重新填写"&gt;<br>
+                      &lt;/FORM&gt; </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <font class="FIX"><font class="BLUEWORD">其有下列可设定之属性：</font> 
+                </font></p><ul>
+<font class="FIX">                  <li>NAME="名称"，是设定此一按钮的名称。 
+                  </li><li>VALUE="文字"，是设定此一按钮上要呈现的文字，若是没有设定，浏览器也会自动替您加上“送出查询”、“重设”等字样。 
+                  </li><li>ALIGN="
+对齐方式"，是设定此一栏位的对齐方式，其值有：TOP（向上对齐）、MIDDLE（向中对齐）、BOTTOM（向下对齐）、RIGHT（向右对齐）、
+LEFT（向左对齐）、TEXTTOP（向文字顶部对齐）、BASELINE（向文字底部对齐）、ABSMIDDLE（绝对置中）、
+ABSBOTTOM（绝对置下）等。 </li>
+                </font></ul>
+<font class="FIX">                </font> 
+                <p> 
+                </p><hr>
+                <p></p>
+              </li><li> <font class="fix"><b>按钮元件</b>：表单中或是JAVA SCRIPT常会用到按钮来作一些效果，因此，我们可以利用TYPE=" 
+                BUTTON "来产生一个按钮，相当简单。</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <form>
+                        请按下按钮： 
+                        <input value="我同意" name="OK" type="button">
+                      </form>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">原始码</td>
+                    <td>&lt;FORM&gt;<br>
+                      请按下按钮：&lt;INPUT TYPE="<font class="PWORD">BUTTON</font>" NAME="OK" VALUE="我同意"&gt;<br>
+                      &lt;/FORM&gt; </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <font class="FIX"><font class="BLUEWORD">其有下列可设定之属性：</font> 
+                </font></p><ul>
+<font class="FIX">                  <li>NAME="名称"，是设定此一按钮的名称。 
+                  </li><li>VALUE="文字"，是设定此一按钮上要呈现的文字。 
+                  </li><li>ALIGN="
+对齐方式"，是设定此一栏位的对齐方式，其值有：TOP（向上对齐）、MIDDLE（向中对齐）、BOTTOM（向下对齐）、RIGHT（向右对齐）、
+LEFT（向左对齐）、TEXTTOP（向文字顶部对齐）、BASELINE（向文字底部对齐）、ABSMIDDLE（绝对置中）、
+ABSBOTTOM（绝对置下）等。 </li>
+                </font></ul>
+<font class="FIX">                </font> 
+                <p> 
+                </p><hr>
+                <p></p>
+              </li><li> <font class="fix"><b>隐藏栏位</b>：表单中有时有些东西因为某些因素，不想让使用者看到，但因程式需要却又不得不存在，此时，我们就可以利用TYPE=" 
+                HIDDEN "来产生一个隐藏的栏位。</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <form>
+                        隐藏栏位： 
+                        <input value="看不到" name="NOSEE" type="hidden">
+                      </form>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">原始码</td>
+                    <td>&lt;FORM&gt;<br>
+                      隐藏栏位：&lt;INPUT TYPE="<font class="PWORD">HIDDEN</font>" NAME="NOSEE" VALUE="看不到"&gt;<br>
+                      &lt;/FORM&gt; </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <font class="FIX"><font class="BLUEWORD">其有下列可设定之属性：</font> 
+                </font></p><ul>
+<font class="FIX">                  <li>NAME="名称"，是设定此一栏位的名称。 
+                  </li><li>VALUE="文字"，是设定此一栏位的值、文字或意义。 </li>
+                </font></ul>
+<font class="FIX">                </font> 
+                <p></p>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【大量文字输入元件】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li>有时候我们会希望让使用者输入比较大量的文字，此时，文字输入列就显得不敷使用，因此我们就可以利用&lt;TEXTAREA&gt;&lt;/TEXTAREA&gt;来产生一个可以输入大量文字的元件，夹在两个标签中的文字会出现在框框中，可作为预设文字。 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <form>
+                        请输入您的意见：<br>
+                        <textarea name="TALK" rows="3"></textarea>
+                      </form>
+                      <br>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">原始码</td>
+                    <td>&lt;FORM&gt;<br>
+                      请输入您的意见：&lt;BR&gt;<br>
+                      &lt;<font class="PWORD">TEXTAREA</font> NAME="TALK" COLS="20" ROWS="3"&gt;&lt;/TEXTAREA&gt;<br>
+                      &lt;/FORM&gt; </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <font class="FIX"><font class="BLUEWORD">其有下列可设定之属性：</font> 
+                </font></p><ul>
+<font class="FIX">                  <li>NAME="名称"，是设定此一栏位的名称。 
+                  </li><li>WRAP="
+设定值"，是设定此一栏位的换行模式。设定值有三种：OFF（输入文字不会自动换行）、VIRTUAL（输入文字在荧幕上会自动换行，不过若是使用者没有
+自行按下ENTER换行，送出资料时，也视为没有换行）、PHYSICAL（输入文字会自动换行，送出资料时，会将荧幕上的自动换行，视为换行效果送
+出）。 </li><li>COLS="数值"，是设定此一栏位的行数（横向字数）。 
+                  </li><li>ROWS="数值"，是设定此一栏位的列数（垂直字数）。 </li>
+                </font></ul>
+<font class="FIX">                </font> 
+                <p></p>
+              </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【下拉式选单】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li>下拉式选单令整个网页看起来有很专业的感觉，我们只要利用&lt;SELECT NAME="名称"&gt;便可以产生一个下拉式选单，另外，还需要配合&lt;OPTION&gt;标签来产生选项，这样才算完整喔！ 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080">呈现结果</td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <form>
+                        您喜欢看书吗？： 
+                        <select name="LIKE">
+                          <option value="非常喜欢" selected="selected">非常喜欢 
+                          </option><option value="还算喜欢">还算喜欢 
+                          </option><option value="不太喜欢">不太喜欢 
+                          </option><option value="非常讨厌">非常讨厌</option>
+                        </select>
+                      </form>
+                    </td>
+                  </tr>
+                  <tr> 
+                    <td class="whiteword" bgcolor="#808080">原始码</td>
+                    <td>&lt;FORM&gt;<br>
+                      您喜欢看书吗？：<br>
+                      &lt;SELECT NAME="LIKE"&gt;<br>
+                      &lt;OPTION VALUE="非常喜欢"&gt;非常喜欢<br>
+                      &lt;OPTION VALUE="还算喜欢"&gt;还算喜欢<br>
+                      &lt;OPTION VALUE="不太喜欢"&gt;不太喜欢<br>
+                      &lt;OPTION VALUE="非常讨厌"&gt;非常讨厌<br>
+                      &lt;/SELECT&gt;<br>
+                      &lt;/FORM&gt; </td>
+                  </tr>
+                   
+                </tbody></table>
+                </p><p> 
+                <font class="FIX"><font class="BLUEWORD">其有下列可设定之属性：</font> 
+                </font></p><ul>
+<font class="FIX">                  <li>SIZE="数值"，是设定此一栏位的大小，预设值为1，若是您的选项有四个，然后您将SIZE设成4，那么，下拉式选单便会变成选项方块，将四个选项一起呈现在方块中。 
+                  </li><li>MULTIPLE，是设定此一栏位为复选，可以一次选好几个选项。 </li>
+                </font></ul>
+<font class="FIX">                </font> 
+                <p></p>
+              </li>
+            </ol>
+          </td>
+        </tr>
+         
+      </tbody></table>
+      <a name="t12"></a> 
+      <p class="BG_LightGry"><b><span class="T3">4.12 <font color="#cc6600">框架标签 
+        </font></span><font color="#cc6600"><span class="Cont3">&lt;<a href="#tagindex">回细说索引</a>&gt;</span></font></b></p>
+      <table align="center" cellpadding="6" cellspacing="0" width="100%">
+         
+        <tbody><tr> 
+          <td><br>
+            <font class="title">【框架的基本概念】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li>首先，各位先看看右手边这张图，我将利用这张图来作解说，这样子，讲起来可能会清楚一点。<img alt="框架说明图" src="images/d1-131.gif" align="right" height="169" hspace="2" vspace="2" width="163"> OK！我们可以看见，右边的这个视窗，一共分为 1 、 2 、 3 三个框架，每一个框架，各有其显示的内容分别是a.htm、b.htm、c.htm三个档案。然而左下角的那个 
+                index.htm 是做什么用的呢？ 
+                <p></p>
+              </li><li>原来，左下角的这个档案 index.htm，就是要告诉电脑，我们要将画面分割成这样，也就是说，<b>所有Frame的标签，其实都只摆在 
+                index.htm 这个档案里</b>。<font class="redword">（当然，不是档名一定要叫做 index.htm 
+                取其他档名也是可以的。）</font> 
+                <p></p>
+              </li><li>这样明白了吗？总之，您要分割几个框框，就一定会有几个对应的html档案<font class="redword">（假如您要分割100个框框，就要有100个html档就对了。）</font>，另外，还会多一个档案是来告诉电脑要如何分割的。（也就是例中的 
+                index.htm 档啦！） </li>
+            </ol>
+            <br>
+            <br>
+            <font class="title">【开始分割】</font> 
+            <p> 
+            </p><ol>
+              <p> 
+              </p><li>别急、别急，分割视窗可是一门学问，要分割也是要一步一步来的。看看刚刚那例子，想像画面是一个蛋糕，你要怎么割，才能割成那样呢？ 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="70%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="30%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;HTML&gt;<br>
+                      &lt;HEAD&gt;<br>
+                      &lt;TITLE&gt;框窗实作&lt;/TITLE&gt;<br>
+                      &lt;/HEAD&gt;<br>
+                      &lt;/HTML&gt;<br>
+                    </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table border="1" height="50" width="50">
+                         
+                        <tbody><tr> 
+                          <td><img src="images/0.gif" height="40" width="55"></td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+              <font class="fix"> 
+              </font></p><p></p>
+<font class="fix">              </font></li><font class="fix"><li>各位会发现，
+奇怪，在上面的语法中，怎么都没见到&lt;BODY&gt;&lt;/BODY&gt;熟悉的身影？呵呵...没错，它已经被待会儿要加进去
+的&lt;FRAMESET&gt;&lt;/FRAMESET&gt;标签给取代了！也就是说，如果我们要分割画面，就要先
+用&lt;FRAMESET&gt;标签告诉电脑说：<font class="redword">‘喂！我要开始分割了！’</font>此时，&lt;BODY&gt;是派不上用场的，所以躲到一旁凉快去了！ 
+                <p></p>
+              </li></font> 
+              <li><font class="fix">现在开始动手割割看啰！我们先将画面分成左右两边<font class="redword">（左边就是框窗 
+                1 了，右边就暂定为 2 等一下还要分割呢！）</font>，如下图：</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="70%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="30%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;HTML&gt;<br>
+                      &lt;HEAD&gt;<br>
+                      &lt;TITLE&gt;框窗实作&lt;/TITLE&gt;<br>
+                      &lt;/HEAD&gt;<br>
+                      <font class="pword">&lt;FRAMESET COLS="120,*" &gt;<br>
+                      </font><font class="blueword">　&lt;FRAME SRC="a.htm" NAME="1"&gt; 
+                      <br>
+                      　&lt;FRAME SRC="b.htm" NAME="2"&gt; <br>
+                      </font><font class="pword">&lt;/FRAMESET&gt;<br>
+                      </font>&lt;/HTML&gt;<br>
+                    </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table border="1" height="50" width="50">
+                         
+                        <tbody><tr> 
+                          <td><img src="images/0.gif" height="1" width="15"></td>
+                          <td><img src="images/0.gif" height="8" width="35"></td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+              <font class="fix"> 
+              </font></p><p></p>
+<font class="fix">              </font></li><font class="fix"><li>在&lt;FRAMESET&gt;中，我们要告诉电脑到底是要左右分<font class="redword">（COLS）</font>？还是上下分<font class="redword">（ROWS）</font>。一开始我们是左右分，所以我们写成<font class="pword">&lt;FRAMESET COLS="120,*" &gt;</font>。COLS="120,*" 
+                就是说，左边那一栏强制定为 120点，右边则随视窗大小而变。除了直接写点数外，我们亦可用百分比来表示，例如COLS="20%,80%"也是可以的。 
+                <p></p>
+              </li></font> 
+              <li><font class="fix">然后，再将右边的框窗再割成上下两个画面<font class="redword">（也就是框窗 2 
+                和 3 了）</font>。如下图：</font> 
+                <p> 
+                <table align="center" bgcolor="#eaeaea" border="1" bordercolor="silver" cellpadding="4" cellspacing="0" width="450">
+                   
+                  <tbody><tr> 
+                    <td class="whiteword" bgcolor="#808080" width="70%">原始码</td>
+                    <td class="whiteword" bgcolor="#808080" width="30%">呈现结果 </td>
+                  </tr>
+                  <tr> 
+                    <td>&lt;HTML&gt;<br>
+                      &lt;HEAD&gt;<br>
+                      &lt;TITLE&gt;框窗实作&lt;/TITLE&gt;<br>
+                      &lt;/HEAD&gt;<br>
+                      &lt;FRAMESET COLS="120,*"&gt;<br>
+                      　&lt;FRAME SRC="a.htm" NAME="1"&gt; <br>
+                      <font class="pword">　&lt;FRAMESET ROWS="100,*"&gt;<br>
+                      </font><font class="blueword">　　&lt;FRAME SRC="b.htm" NAME="2"&gt; 
+                      <br>
+                      　　&lt;FRAME SRC="c.htm" NAME="3"&gt; <br>
+                      </font><font class="pword">　&lt;/FRAMESET&gt;<br>
+                      </font>&lt;/FRAMESET&gt;<br>
+                      &lt;/HTML&gt;<br>
+                    </td>
+                    <td align="middle" bgcolor="white" valign="center"> 
+                      <table border="1" height="50" width="50">
+                         
+                        <tbody><tr> 
+                          <td rowspan="2"><img src="images/0.gif" height="8" width="15"></td>
+                          <td><img src="images/0.gif" height="10" width="35"></td>
+                        </tr>
+                        <tr> 
+                          <td><img src="images/0.gif" height="30" width="35"></td>
+                        </tr>
+                         
+                      </tbody></table>
+                    </td>
+                  </tr>
+                   
+                </tbody></table>
+              <font class="fix"> 
+              </font></p><p></p>
+<font class="fix">              </font></li><font class="fix"><li>看见了没？原本的&lt;FRAME SRC="b.htm" NAME="2"&gt;<font class="redword">（在第 3 点的语法中）</font>被另一组&lt;FRAMESET ROWS="100,*" 
+                &gt;所取代了！所以要注意喔！第二组&lt;FRAMESET ROWS="100,*" &gt;是被第一组&lt;FRAMESET 
+                COLS="120,*" &gt;所包围起来的喔！<font class="redword">（乱七八糟了对不对？）</font> 
+                <p></p>
+              </li><li>呵呵...不知不觉就大功告成了，其实只要将最后完成的那些语法存成 index.htm，然后再准备三个档 a.htm 、b.htm 
+                、c.htm那么就完工啰！当然，这是一个最阳春的分割法，我会再将一些进阶的标签在底下一一说明。 
+                <p></p>
+              </li>
+              </font> 
+            </ol>
+            <br>
+            <br>
+            <font class="title">【其他标签参数说明】</font> 
+            <p> 
+            <table border="0" width="100%">
+               
+              <tbody><tr> 
+                <td bgcolor="#fff2d9">&lt;FRAMESET COLS="120,*" frameborder=0 framespacing=5&gt;</td>
+              </tr>
+              <tr> 
+                <td> 
+                  <ol>
+                    <p> 
+                    </p><li><font class="pword">COLS="<font class="pword">120,*</font>"</font><br>
+                      就是垂直切割画面啦！你可以一次切成左右两个画面，当然也可以切成三个，很简单只要写成 COLS="30,*,50" 
+                      <font class="redword">（数字随便您自己调整啦！）</font>，依此类推，四个以上当然就是四组数字啦！ 
+                      <p></p>
+                    </li><li><font class="pword">ROWS="<font class="pword">120,*</font>"</font><br>
+                      就是横向切割画面，也就是将画面上下分开，切法同上。 
+                      <p></p>
+                    </li><li><font class="pword">frameborder=<font class="pword">0</font></font><br>
+                      设定框架的边框，其值只有 0 和 1 ， 0 就是不要边框， 1 就是要显示边框。边框是无法调整粗细的。 
+                      <p></p>
+                    </li><li><font class="pword">framespacing=5</font><br>
+                      表示框架与框架间的保留空白的距离，以免看起来太挤。 </li>
+                  </ol>
+                </td><td></td>
+              </tr><tr> 
+                <td bgcolor="#fff2d9">&lt;FRAME SRC="a.htm" NAME="1" frameborder=0 
+                  scrolling="no" noresize marginhight=2 marginwidth=2&gt;</td>
+              </tr>
+              <tr> 
+                <td> 
+                  <ol>
+                    <p> 
+                    </p><li><font class="pword">SRC="<font class="pword">a.htm</font>"</font><br>
+                      设定此框架中要显示的网页名称，每个框架一定要对应一个网页，否则就会产生错误，这里就是要您填入对应网页的名称。<font class="redword">（如果该网页在不同目录，记得路径要写清楚）</font> 
+                      <p></p>
+                    </li><li><font class="pword">NAME="<font class="pword">1</font>"</font><br>
+                      设定这个框架的名称，这样才能指定框架来作连结，所以一定要设定喔！当然名称随你高兴取名。 
+                      <p></p>
+                    </li><li><font class="pword">frameborder=<font class="pword">0</font></font><br>
+                      设定框架的边框，其值只有 0 和 1 ， 0 就是不要边框， 1 就是要显示边框。边框是无法调整粗细的。 
+                      <p></p>
+                    </li><li><font class="pword">scrolling="<font class="pword">no</font>"</font><br>
+                      设定是否要显示卷轴，YES是要显示卷轴，NO是无论如何都不要显示，AUTO是视情况显示。 
+                      <p></p>
+                    </li><li><font class="pword">noresize</font><br>
+                      设定不让使用者可以改变这个框框的大小，如果没有设定这个参数，使用者可以很容易的拉动框架，改变其大小。 
+                      <p></p>
+                    </li><li><font class="pword">marginhight=<font class="pword">2</font></font><br>
+                      表示框架高度部份边缘所保留的空间。 
+                      <p></p>
+                    </li><li><font class="pword">marginwidth=<font class="pword">2</font></font><br>
+                      表示框架宽度部份边缘所保留的空间。 </li>
+                  </ol>
+                </td>
+              </tr>
+               
+            </tbody></table>
+            <br>
+            <br>
+            <font class="title">【相关用法】</font> 
+            </p><p> 
+            <table border="0" width="100%">
+               
+              <tbody><tr> 
+                <td bgcolor="#d0fdc8"><b>◆ &lt;noframe&gt;</b></td>
+              </tr>
+              <tr> 
+                <td> 
+                  <ol>
+                    <p> 
+                    </p><li>使用方法：<font class="pword">&lt;noframe&gt;</font><font class="gword">请换有支援Frame功能的浏览器</font><font class="pword">&lt;/noframe&gt;</font> 
+                      <p></p>
+                    </li><li><b>标签解说：</b>有些浏览器较为老旧，无法显示Frame的功能，因此，就要使用此标签，让这些网友知道，该换换浏览器了。或者，你也可以在这标签中，摆上没有Frame语法的网页标签，那么，没有支援Frame功能的浏览器，便会自动显示没有Frame语法的网页。 
+                    </li>
+                  </ol>
+                </td>
+              </tr>
+               
+            </tbody></table>
+            </p><p> 
+            <table border="0" width="100%">
+               
+              <tbody><tr> 
+                <td bgcolor="#d0fdc8"><b>◆ target=框窗名称</b></td>
+              </tr>
+              <tr> 
+                <td> 
+                  <ol>
+                    <p> 
+                    </p><li>使用方法：&lt;A HREF="d1-1.htm"<font class="pword"> target=3</font>&gt;显示内容&lt;/A&gt; 
+                      <p></p>
+                    </li><li><b>标签解说：</b>常常有一个情况是，我想在框窗 1 的地方按下连结，但是希望他的内容出现在框窗 3 中<font class="redword">（请参照上面那个图）</font>，那应该如何写呢？就像上面加个<font class="pword"> target=框窗名称</font> 就行啦！ </li>
+                  </ol>
+                </td>
+              </tr>
+               
+            </tbody></table>
+            </p><p> 
+            <table border="0" width="100%">
+               
+              <tbody><tr> 
+                <td bgcolor="#d0fdc8"><b>◆ target=_top</b></td>
+              </tr>
+              <tr> 
+                <td> 
+                  <ol>
+                    <p> 
+                    </p><li>使用方法：&lt;A HREF="http://www.kimo.com"<font class="pword"> target=_top</font>&gt;奇摩站&lt;/A&gt; 
+                      <p></p>
+                    </li><li><b>标签解说：</b>有时候，在框窗里会连结到别的站，却发现，新连结的这个站，竟然被框窗包住了，不但难看，而且可能会吃上官司说！所以，这时候你必需加入<font class="pword"> target=_top</font>这个参数，那么，这个新连到的网站，就会重新占据整个荧幕啦！ 
+                    </li>
+                  </ol>
+                </td>
+              </tr>
+               
+            </tbody></table>
+          </p></td>
+        </tr>
+         
+      </tbody></table>
+      <a name="t13"></a> 
+      <p class="BG_LightGry"><b><span class="T3">4.13 <font color="#cc6600">其他技巧 
+        </font></span><font color="#cc6600"><span class="Cont3">&lt;<a href="#tagindex">回细说索引</a>&gt;</span></font></b></p>
+      <p class="Cont2">■ <span class="Color_Org">网页配色及背景音乐</span></p>
+      <blockquote class="Cont3"> 
+        <p>首先是网页的底色，通常是白白的，要怎么做变化呢？可以做自己的背景图片。</p>
+        <p> 要注意一点，如果背景和文字颜色一样～或者颜色相近，天啊～那谁知道你在写什么呀？最好文字与背景颜色有对比，像敝人当初，网页背景是黑的，字是白的红的，就可以很明显的突显出文字。如果图片中有文字，也要尽量淡化，否则影响内容就不好啰！</p>
+        <p> 内容的东西颜色要配的适宜（除非你想要有奇怪的风格），不然像背景大红大红，太刺眼了，有人会想去吗？剩下的就让您自己配配看吧！</p>
+        <p> 然后是音乐，有人喜欢用bgsound标签</p>
+        <p>&lt;bgsound src="music.mid"&gt;</p>
+        <p>可是用NetScape看就没有声音了最好用embed标签 &lt;embed src="music.mid"&gt;</p>
+        <p>这样就可以正常播放了唷～ </p>
+      </blockquote>
+      <p class="Cont2">■ <span class="Color_Org">首页应有的特质及重要性</span></p>
+      <ol class="Cont3">
+        <li>About
+Open Page：打开browser看到网站的第一个部份，有人称之为Open
+Page(通常是首页的一半或三分之一)，这个部份应该包含网站的主功能(亦即使用者上这个网站最希望或者最可能做的事)，ex.
+一进入Allproducts.com即可看到“Key word search”及“Search by
+category”，应该尽量避免让使用者还要使用mouse上下左右拉才能看到他(她)所想要的功能或资讯，有时资讯太多，在不得已的情况下，页面可以
+往下沿申，但切忌右左划面过大，不符一般人的使用习惯，也会造成列印上的困扰。<br>
+          <br>
+        </li>
+        <li> 主题明确：Open Page应包含公司Logo、网站主题(最好是一段简短的Slogan，让使用者一看就知道这个网站主要功能或架站目的,ex. 
+          Allproducts.com上的The world's best products directory for volume buyers)<br>
+          <br>
+        </li>
+        <li>
+Navigation：让使用者很明确了解他(她)目前在网站的什么地方(或功能)，首页上应该有主要功能的连结，各个icon如果可能的话，尽可能加上
+一些纯文字的说明及link；至于icon或者link的摆放亦应有其相对应的逻辑，如与整个网站或大架构较为相关的，放在较外层，与目前执行的功能或页
+面较为相关的link应该放在内层；另外，最好能在首页上提供Site Map的连结，让使用者可以很快了解网站的架构；所有的link应该把握
+intuitive , obvious , fast的原则。<br>
+          <br>
+        </li>
+        <li>
+Color or
+image：对于颜色的采用，应该考虑到该网站的特性及与其它相关网站的区别，特别是首页的颜色配置，应该让使用者感觉很舒服、没有压迫感，但又不失其专
+业性，但切忌过度追求美感而牺牲其功能性，就公司目前的网站设计理念，应该是功能性的考量优于纯美术的考量，首页的设计最好设定在60k以内，而且不要用
+太多层的table。 <br>
+          <br>
+        </li>
+        <li> Meta tag：该部份不会出现在前端的页面上，但网站规划时应该将该部份一并考量，做为网站登录时使用，网站上线时务必将相关资料加入。<br>
+          <br>
+        </li>
+        <li> 其它：首页上应该有service account 及 联络资料</li>
+      </ol>
+      <p class="Cont2">■ <span class="Color_Org">Meta Tag 的简介</span></p>
+      <blockquote> 
+        <p> 一般常用的格式如下：</p>
+      </blockquote>
+      <ul>
+        <li><span class="Color_Blue">&lt;Title&gt;All Products Online&lt;/title&gt;</span><br>
+          <span class="Color_Green_Dark">这虽说不是meta的一部份，但是也不可忽略，总长度不要超过85个Character 
+          (约10个字)。<br>
+          <br>
+          </span></li>
+        <li><span class="Color_Blue">&lt;meta http-quive="content-type" 
+          content="text/html; charset=iso-8859-1"&gt;</span><br>
+          <span class="Color_Green_Dark">说明网站的格式及编码方式，另外这个功能也可以拿来说明网站的名称。<br>
+          <br>
+          </span></li>
+        <li><span class="Color_Blue"> &lt;meta name="keyword" contents="关键字一, 
+          关键字二, 关键字三, ….."&gt;</span><br>
+          <span class="Color_Green_Dark">铲明整个网站的关键字，关键字间用逗点隔开，总长度最好不要超过1000个Character 
+          (约44个字)。<br>
+          <br>
+          </span></li>
+        <li><span class="Color_Blue">&lt;meta name="description" contents="整个网站的描述…."&gt;</span><br>
+          <span class="Color_Green_Dark">铲明整个网站为何吸引人的地方，可用逗点隔开，总长度最好不要超过200个Character 
+          (约15个字)，若文章真的太长，可以切割成两个部分，较不重要的部分置入下一个Description。<br>
+          <br>
+          </span></li>
+        <li><span class="Color_Blue">&lt;meta name="robots" content=" 
+          ALL, NONE, INDEX, NOINDEX, FOLLOW, NOFOLLOW"&gt;</span><br>
+          <span class="Color_Green_Dark">此功能是要给搜寻引擎使用的，是要用来告诉Spider哪些网页是要去撷取的或不用去撷取的，一般都设定成All(内定值)。</span></li>
+      </ul>
+      <p align="center">&nbsp;</p>
+    </td>
+  </tr>
+</tbody></table><script language="Javascript">
+      function replaceText(text){
+	      while(text.lastIndexOf("&") > 0){
+		      text = text.replace('&', '[i-Stats]');
+	      }
+	      return text;
+      }
+
+      var web_referrer = replaceText(document.referrer);
+      <!--
+      istat = new Image(1,1);
+      istat.src = "http://ads.allproducts.com.tw:8080/web_status/counter.php?sw="+screen.width+"&sc="+screen.colorDepth+"&referer="+web_referrer+"&page="+location.href;
+      //-->
+      </script><br>
+
+<script src="images/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-142547-4";
+urchinTracker();
+</script>
+</body></html>

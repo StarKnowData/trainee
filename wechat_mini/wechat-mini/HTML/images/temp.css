@@ -1,0 +1,27 @@
+.T1 {  font-size: 36px; line-height: 48px; font-weight: bolder}
+a:link {  color: #3366FF; text-decoration: none}
+a:hover {  color: #0066CC; text-decoration: underline; background: #E2F1FC}
+a:active {  color: #CC6600; text-decoration: underline}
+a:visited {  color: #6699CC; text-decoration: none}
+.T2 { font-size: 26px; line-height: 32px; font-weight: bolder}
+.T3 { font-size: 20px; line-height: 28px; font-weight: bolder }
+.T4 { font-size: 16px; line-height: 24px; font-weight: bolder }
+.Color_Red {  color: #993300}
+.Color_Blue { color: #0066CC}
+.Color_Gry { color: #666666}
+.Color_Org { color: #CC6600}
+.Color_Green { color: #669966}
+.Color_Purple { color: #660066}
+.Sub1 {  }
+.Cont1 {  font-size: 16px}
+.Cont2 { font-size: 15px}
+.Cont3 { font-size: 12px}
+.Cont4 { font-size: 10px}
+.Sub1 {  line-height: 32px}
+.Arial { font-family: "Arial", "Helvetica", "sans-serif" }
+.Kai { font-family: "標楷體"}
+.a_org {  color: #FF6633; text-decoration: none}
+.BG_Gry {  color: #FFFFFF; background: #666666; font-family: "標楷體"; line-height: 32px}
+.BG_LightGry { background: #DDDDDD}
+.Color_Green_Dark { color: #336666}
+.BG_LightRed { background: #FFCCFF}

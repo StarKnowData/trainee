@@ -1,0 +1,78 @@
+BODY {
+	FONT-SIZE: 9pt; COLOR: black; LINE-HEIGHT: 150%; FONT-FAMILY: 新細明體,Arial
+}
+TD {
+	FONT-SIZE: 9pt; COLOR: black; LINE-HEIGHT: 150%; FONT-FAMILY: 新細明體,Arial
+}
+A:link {
+	COLOR: #263382; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000042; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #4f66b7; TEXT-DECORATION: underline
+}
+.line2 {
+	LINE-HEIGHT: 150%
+}
+.title {
+	FONT-WEIGHT: bolder; FONT-SIZE: 20px; COLOR: #330099; FONT-FAMILY: 新細明體; TEXT-DECORATION: none
+}
+.tool {
+	FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.code {
+	FILTER: alpha(opacity=40,style=0); COLOR: #00008b; FONT-FAMILY: "Courier New", Courier, monospace; BACKGROUND-COLOR: white
+}
+.screen {
+	COLOR: #f0f8ff; FONT-FAMILY: "Courier New", Courier, monospace; BACKGROUND-COLOR: #2f4f4f
+}
+.news {
+	FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #e4efc5
+}
+.exp {
+	FONT-FAMILY: sans-serif; BACKGROUND-COLOR: #ffffcc
+}
+.td_code {
+	FONT-FAMILY: "Courier New", Courier, monospace
+}
+.noBorder {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #fefefe
+}
+.tinyBorder {
+	BORDER-RIGHT: gray 1px solid; BORDER-TOP: gray 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: gray 1px solid; BORDER-BOTTOM: gray 1px solid; FONT-FAMILY: 新細明體,Arial
+}
+.form_small {
+	FONT-SIZE: 8pt; LINE-HEIGHT: 100%
+}
+.code_textarea {
+	BORDER-RIGHT: gray 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: gray 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 7pt; PADDING-BOTTOM: 3px; BORDER-LEFT: gray 1px solid; WIDTH: 98%; COLOR: #334050; PADDING-TOP: 3px; BORDER-BOTTOM: gray 1px solid; FONT-FAMILY: MS Sans Serif; BACKGROUND-COLOR: #ffffff
+}
+.submit_small {
+	FONT-SIZE: 8pt
+}
+.nolh {
+	FONT-SIZE: 8pt
+}
+.small {
+	FONT-SIZE: 8pt
+}
+.redword {
+	COLOR: #ff6633
+}
+.blueword {
+	COLOR: #0099ff
+}
+.greenword {
+	COLOR: #009900
+}
+.gword {
+	COLOR: #6c6c6c
+}
+.pword {
+	COLOR: #ff3399
+}
+.whiteword {
+	COLOR: #ffffff
+}

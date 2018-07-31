@@ -1,0 +1,185 @@
+BODY {
+font-family: "Arial", "Helvetica", "sans-serif";
+scrollbar-face-color:#DFF3FF;
+scrollbar-highlight-color:#4E96CB;
+scrollbar-3dlight-color:#F4F4F8;
+scrollbar-darkshadow-color:#F4F4F8;
+scrollbar-shadow-color:#29618C;
+scrollbar-arrow-color:#731818;
+scrollbar-track-color:#F4F4F8;
+}
+.img {  border: double; border-color: #E3E4E6 #666666 #666666 #E3E4E6}
+td { font-family: "Arial", "Helvetica", "sans-serif"; }
+.word_whi {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 10pt; color: #FFFFFF}
+.word_gra {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 10pt; line-height: 15pt; color: #333333; text-decoration: none}
+.word_gra:link { font-family: "Arial", "Helvetica", "sans-serif"; font-size: 10pt;color: #333333; text-decoration: none; text-decoration: none}
+.word_gra:hover { font-family: "Arial", "Helvetica", "sans-serif"; font-size: 10pt; color: #0066CC; text-decoration:underline}
+.word_ora {  font-family: "Arial", "Helvetica", "sans-serif";font-size: 10pt; line-height: 15pt; color: #FF6600; text-decoration: none}
+.word_ora:link { font-family: "Arial", "Helvetica", "sans-serif"; font-size: 10pt;color: #FF6600; text-decoration: none}
+.word_ora:hover { font-family: "Arial", "Helvetica", "sans-serif"; font-size: 10pt; color: #0066CC; text-decoration:underline}
+.logo {  font-family: "Geneva", "Arial", "Helvetica", "san-serif"; font-size: 10pt; color: #003399; font-weight: bold}
+.box_color1 { font-family: "Arial", "Helvetica", "sans-serif";background-color: #DFEDEE}
+.box_color2 { font-family: "Arial", "Helvetica", "sans-serif";background-color: #B3D5DF}
+.word_blu {
+	font-size: 10pt;
+	line-height: 15pt;
+	color: #0072BD;
+	text-decoration: none;
+	font-family: "Arial", "Helvetica", "sans-serif";
+}
+.word_blu:link { font-family: "Arial", "Helvetica", "sans-serif"; font-size: 10pt;color: #0072BD; text-decoration: none}
+.word_blu:hover { font-family: "Arial", "Helvetica", "sans-serif"; font-size: 10pt; color: #FF8400; text-decoration:underline}
+.word_deep {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 10pt; color: #333333; text-decoration: none}
+.word_deep:link  {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 10pt; color: 080808; text-decoration: none}
+.word_deep:hover {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 10pt; color: 0072BD; text-decoration:underline}
+.service02 {  font-family: "Arial", "Helvetica", "sans-serif";background-color: #FFFFFF; background-image: url(images/service_02_bg2.gif); background-repeat: repeat-y}
+.service03 {  font-family: "Arial", "Helvetica", "sans-serif";background-color: #FFFFFF; background-image: url(images/service_03_bg2.gif); background-repeat: repeat-y}
+.service04 {  font-family: "Arial", "Helvetica", "sans-serif";background-color: #FFFFFF; background-image: url(images/service_04_bg2.gif); background-repeat: repeat-y}
+.word_e {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 9pt; color: #333333}
+.word_gre {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 10pt; line-height: 15pt; color: 8FB241}
+.word_blue {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 10pt; line-height: 15pt; color: 00A6D0}
+.word_ma {  font-family: "Arial", "Helvetica", "sans-serif"; font-size: 10pt; line-height: 15pt; color: D058A0}
+.form_blu {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	color: #0072BD;
+	background-color: #DAE4F8;
+	letter-spacing: 2px;
+	vertical-align: middle;
+	padding: 2px;
+	border: 1px solid #0072BD;
+}
+.form_gra {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	color: #333333;
+	background-color: #fafafa;
+	letter-spacing: 2px;
+	vertical-align: middle;
+	padding: 2px;
+	border: 1px solid #333333;
+}
+.form_ora {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	color: #FF6600;
+	background-color: #FCE8DA;
+	letter-spacing: 2px;
+	vertical-align: middle;s
+	padding: 2px;
+	border: 1px solid #FF6600;
+}
+.button_gra {
+	color: #333333;
+	background-color: #fafafa;
+	letter-spacing: 2px;
+	vertical-align: middle;
+	padding: 2px;
+	border: 1px solid #333333;
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+}
+.word_oc {  font-family: "Arial", "Helvetica", "sans-serif";  font-size: 10pt; line-height: 15pt; color: C3E7FF; text-decoration: none}
+.word_oc:link {  font-family: "Arial", "Helvetica", "sans-serif";  font-size: 10pt; line-height: 15pt; color: C3E7FF; text-decoration: none}
+.word_oc:hover{  font-family: "Arial", "Helvetica", "sans-serif";  font-size: 10pt; line-height: 15pt; color: FFFABE; text-decoration:underline}
+.top {  background-color: #FFFFFF; background-image: url(images/index_top.gif); background-repeat: repeat-x}
+.br_coner {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	letter-spacing: 1px;
+	vertical-align: top;
+	border-top-width: 1px;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: groove;
+	border-bottom-style: groove;
+	border-left-style: solid;
+	border-top-color: #E7EFCE;
+	border-right-color: #E7EFCE;
+	border-bottom-color: #E7EFCE;
+	border-left-color: #E7EFCE;
+	background-color: #F4F9EC;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+}
+.select {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	color: #333333;
+	background-color: #F3FCFA;
+	padding: 2px;
+	border: 1px solid #333333;
+}
+.underline {
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	border-top-color: #B5CF7B;
+	border-right-color: #B5CF7B;
+	border-bottom-color: #B5CF7B;
+	border-left-color: #B5CF7B;
+	font-family: "º–∑¢≈È";
+	font-size: 26px;
+	line-height: 36px;
+	color: #006600;
+	font-weight: bold;
+	letter-spacing: 4px;
+	padding: 4px;
+	text-align: left;
+	vertical-align: middle;
+
+
+
+
+
+
+}
+.hd {
+	display: none;
+}
+.form_ora_noline {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	color: #EC5F00;
+	background-color: #FCE8DA;
+	letter-spacing: 2px;
+	vertical-align: middle;
+s
+	padding: 2px;
+	border: 1px solid #FF6600;
+	padding: 2px;
+	text-decoration: none;
+}
+
+.temp_rule{font-family:Arial, Helvetica, sans-serif; color:#4476BE; font-size:11px}
+.temp_rule a{font-family:Arial, Helvetica, sans-serif; color:#4476BE; font-size:11px; text-decoration:none}
+.temp_rule a:link{font-family:Arial, Helvetica, sans-serif; color:#4476BE; font-size:11px; text-decoration:none}
+.temp_rule a:hover{font-family:Arial, Helvetica, sans-serif; color:#cc3300; font-size:11px; text-decoration:underline}
+.customer_samplearea{
+	font-size: 12px;
+	color: #666666;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D6F5FD;
+	background-color: #EFFAFD;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-image: url(images/menu_bg_sample.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.downline{
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CEF1F8;
+	font-size: 11px;
+	margin: 0px;
+	padding: 0px;
+}
