@@ -173,6 +173,8 @@ FROM
 9. 物理成绩人数>80分的人数超过10个的班级的列表
 
 
+```
+
 SELECT classNumber,count(*) as wuliScoreCount FROM SCOREs 
 
 where wuliScore > 80
@@ -181,10 +183,14 @@ GROUP BY classNumber
 
 having wuliScoreCount>10
 
+```
 
 10. 
 
 以下查询返回在位于美国(USA)的办公室工作的员工。
+
+
+```
 
 SELECT 
     lastName, firstName
@@ -207,6 +213,8 @@ FROM
     on t1.officeCode = t2.officeCode and t2.country='USA'
 
 
+```
+
 11. 以下查询返回最大付款额的客户。
 
 ```
@@ -223,6 +231,8 @@ WHERE
 
 12. 例如，可以使用子查询找到其付款大于平均付款的客户。 首先，使用子查询来计算使用AVG聚合函数的平均付款。 然后，在外部查询中，查询大于子查询返回的平均付款的付款。参考以下查询语句的写法 -
 
+
+```
 SELECT 
     customerNumber, checkNumber, amount
 FROM
@@ -236,3 +246,4 @@ WHERE
 
 
 
+```
