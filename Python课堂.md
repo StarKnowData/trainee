@@ -11,3 +11,5 @@ http://www.cnblogs.com/zxin/archive/2013/01/26/2877765.html
 ![](https://ws3.sinaimg.cn/large/006tNc79ly1ftwcvif579j30dq0gmq6o.jpg)
 
 在命令行中输入 pip install requests
+
+4. 运行   点右键 RUN，或者 在 terminal 里面 python **.py
