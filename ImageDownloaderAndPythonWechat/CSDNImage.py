@@ -217,7 +217,7 @@ for imgurl in content:
     }
     request = urllib2.Request(imgurl, None, header)  #刻意增加头部header，否则本行与下一行可以写为：response = urllib2.urlopen(imgurl)
     response = urllib2.urlopen(request)
-    f = open(name+'.png' , 'wb')
-    f.write(response.read())
-    f.close()
+    fileWriter = open(name+'.png' , 'wb')
+    fileWriter.write(response.read())
+    fileWriter.close()
     print(imgurl)
