@@ -58,7 +58,8 @@
 
 5. 数分:
 
-    * [外卖点餐数据分析](https://edu.aliyun.com/course/394/lesson/list?spm=5176.8764728.aliyun-edu-course-tab.2.ZhOhDq) 68元
+
+    [外卖点餐数据分析](https://edu.aliyun.com/course/394/lesson/list?spm=5176.8764728.aliyun-edu-course-tab.2.ZhOhDq) 68元
 
     ![](https://ws1.sinaimg.cn/large/0069RVTdly1ftxeqaa98ij30r00erq8y.jpg)
 
@@ -96,7 +97,7 @@
 
     Ø&nbsp; 报表相关知识
 
-    # **<font size="4">产品与服务**
+    **产品与服务**
 
     Ø&nbsp; 开通阿里云账号
 
@@ -132,17 +133,17 @@
     * 课时8：阿里云相关产品基本操作演示   
     * 课时9：【在线实验】外卖点餐数据分析
 
-    * [阿里云大数据助理工程师认证（ACA）](https://edu.aliyun.com/certification/aca02?spm=5176.8702532.751160.8.Eo1eTA)  
+    [阿里云大数据助理工程师认证（ACA）](https://edu.aliyun.com/certification/aca02?spm=5176.8702532.751160.8.Eo1eTA)  
     
-    第1 章：认证介绍  
-    第2 章：大数据概述  
-    第3 章：数加平台介绍  
-    第4 章：掌握分析型数据库  
-    第5 章：掌握MaxCompute  
-    第6 章：掌握大数据开发套件DataIDE  
-    第7 章：掌握智能BI服务平台Quick BI  
-    第8 章：掌握DataV数据可视化  
-    第9 章：掌握机器学习PAI  
+    * 第1 章：认证介绍  
+    * 第2 章：大数据概述  
+    * 第3 章：数加平台介绍  
+    * 第4 章：掌握分析型数据库  
+    * 第5 章：掌握MaxCompute  
+    * 第6 章：掌握大数据开发套件DataIDE  
+    * 第7 章：掌握智能BI服务平台Quick BI  
+    * 第8 章：掌握DataV数据可视化  
+    * 第9 章：掌握机器学习PAI  
 
 6. BD:  
 
