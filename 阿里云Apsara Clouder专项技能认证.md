@@ -45,7 +45,7 @@
 ![云安全Clouder认证](https://note.youdao.com/yws/public/resource/afaff223b414de6429a5c7a214818907/xmlnote/6FA7BD45A8FA482E8C7A559E0C0E374C/27962)
 
 5. 数分:
-* [外卖点餐数据分析](https://edu.aliyun.com/course/394/lesson/list?spm=5176.8764728.aliyun-edu-course-tab.2.ZhOhDq)  
+* [外卖点餐数据分析](https://edu.aliyun.com/certification/cldd38?spm=5176.8702532.915234.30.WrUxhc)  
     课时1：数据分析知识简介（1）  
     课时2：数据分析知识简介（2）  
     课时3：数据分析知识简介（3）  
