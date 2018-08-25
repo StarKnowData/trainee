@@ -63,7 +63,7 @@
 
     ./ngrok http -host-header=domain port
 
-![](/images/learning_demo/ngrok.gif)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/learning_demo/ngrok.gif)
 
 **2. 小程序端配置**
 
@@ -74,41 +74,41 @@
 
 小程序:
 
-![](/images/learning_demo/mini.gif)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/learning_demo/mini.gif)
 
 web端：
 
-![](/images/learning_demo/web.gif)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/learning_demo/web.gif)
 
 ##### 分析
 
 在看完了源码后，基本了解了前后端的结构，后台使用了 [WordPress](https://codex.wordpress.org/Main_Page)，关于 WordPress 的这里就不细说了，可以用来搭建博客等，也可以像这里一样把它作为后台，由前端的小程序通过 https 向服务器发送请求返回数据，服务端响应的返回的将是 json 数据
 
-![](/images/learning_demo/url.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/learning_demo/url.png)
 
 	APP/
 	  |- images/							# 存放 tabBar 的文件
 		  |- ...
 	  |- pages
-		  |- detail							# 显示单篇文章内容的页面相关文件
+		  |- detail						# 显示单篇文章内容的页面相关文件
 			  |- detail.js
 			  |- detail.json
 			  |- detail.wxml
 			  |- detail.wxss
-		  |- index							# 首页页面的相关文件
+		  |- index						# 首页页面的相关文件
 			  |- ...						
-		  |- theme							# 主题页面相关文件（包括 development、 intelligent、 intnet 页面）
+		  |- theme						# 主题页面相关文件（包括 development、 intelligent、 intnet 页面）
 	  |- utils
 		  |- util.js						# 关于时间转换分离的逻辑处理
 	  |- vender
 		  |- weui
-			  |- ...						# 样式依赖
+			  |- ...					# 样式依赖
 		  |- wxParse
-			  |- ...						# 处理文件格式解析等 （提供了将 html 类型的文件转换为纯文本的 wxPares 方法等）
-	  |- app.js								# 全局逻辑
+			  |- ...					# 处理文件格式解析等 （提供了将 html 类型的文件转换为纯文本的 wxPares 方法等）
+	  |- app.js							# 全局逻辑
 	  |- app.json							# 全局配置
  	  |- app.wxss							# 全局样式
-	  |- project.config.json 				# 配置文件
+	  |- project.config.json 					# 配置文件
 
 值得学习的几个功能：正在加载、暂无数据、加载更多
 
@@ -116,7 +116,7 @@ web端：
 
 /pages/index/index.js
 
-![](/images/learning_demo/function.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/learning_demo/function.png)
 
 ### 同城拼车
 
@@ -157,7 +157,7 @@ web端：
 	Info（id, type, uid, see, .....）			
 										----- 拼车详情信息表，uid 代表发布该拼车信息的用户
 	fav （id, uid, iid, ......）				 
-									    ----- 收藏表，指的是某位 user 对某条 info 的收藏
+									    	----- 收藏表，指的是某位 user 对某条 info 的收藏
 	zan （id, uid, cid, ......）		
 										----- 赞表，指的是某位 user 对某 comment 的点赞
 	msg （id, uid, content, see, type, fid）
@@ -178,7 +178,7 @@ web端：
     	Apps/Api
 	  |- Common/							# 整个应用的共用文件
 		  |- function.php 
-	  |- Conf								# 应用配置文件，配置 appid 等
+	  |- Conf							# 应用配置文件，配置 appid 等
 		  |- ...							
 	  |- Controller							# 控制器
 		  |- UserController
@@ -189,7 +189,7 @@ web端：
 		  |- DynamicController
 		  |- CommentController
 		  |- AppointmentController						
-	  |- Model								# 模型，一般一个数据库对应一个模型，但可根据实际情况而定
+	  |- Model							# 模型，一般一个数据库对应一个模型，但可根据实际情况而定
 		  |- Comment
 		  |- Dynamic
 		  |- Info
@@ -237,7 +237,7 @@ index()：将会在 `/pages/notice/index.js` 中发送请求
 
 index()：从数据库在的 notice 表中按照 id 值进行查找，成功后将会向前端返回 json 数据
 
-![](/images/learning_demo/notice.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/learning_demo/notice.png)
 
 **4. MsgController**
 
@@ -331,13 +331,13 @@ curd 操作数据库：[data](http://www.thinkphp.cn/info/323.html)
 
 发送消息提醒功能，对应的是 `function.php` 中的 `msg()` 方法，与 `MsgController` 。
 
-![](/images/learning_demo/msg.png) 
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/learning_demo/msg.png) 
 
 **遇到的问题**
 
 - 1. 路由功能
 
-![](/images/learning_demo/pincheone.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/learning_demo/pincheone.png)
 
 将小程序中的地址更换后看到 `ngrok` 服务出现以上画面，显示 404，我被这个问题困扰了挺久的，后来发现引起这个原因的很可能与 `ThinkPHP` 框架的路由功能有关，按理说替换了地址应该就可以了，这里出现问题可能和我的 Apache `mod_rewrite` 重写模块未能起作用有关。看了 `index.php` 中目录应用定义后，`ThinkPHP` 中关于路由功能有几种使用方式，这里将 `rootDocment` 改为：
 
@@ -347,7 +347,7 @@ curd 操作数据库：[data](http://www.thinkphp.cn/info/323.html)
 
 - 2. 动态页面未能正常显示
 
-![](/images/learning_demo/pinchetwo.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/learning_demo/pinchetwo.png)
 
 遇到这个问题的时候，应该这样考虑，到底是前端出错了还是后端未能正常返回数据，一步步来分析问题出现的原因，我们首先假定后端未能正确返回数据，先检查下后端能否返回正常的数据，如果后端没有问题，能正常返回数据，则问题出现在前端小程序的逻辑上。
 
@@ -355,7 +355,7 @@ curd 操作数据库：[data](http://www.thinkphp.cn/info/323.html)
 
 我们找到小程序动态页面请求的后端服务方法 DynamicController 中的 getList() 进行调试。 
 
-![](/images/learning_demo/sql.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/learning_demo/sql.png)
 
 我们依次使用 73、74 行中的语句进行调试，查看到底是哪个地方有问题，在 `postman` 中进行请求查看能否返回正常的 `json` 数据。
 
@@ -378,7 +378,7 @@ curd 操作数据库：[data](http://www.thinkphp.cn/info/323.html)
 
 在 CommentController 中加入函数 zan() 中添加以下代码即可
 
-![](/images/learning_demo/zan.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/learning_demo/zan.png)
  
 ## 学习收获
 
@@ -392,7 +392,7 @@ curd 操作数据库：[data](http://www.thinkphp.cn/info/323.html)
 
 后端完成一个请求后返回 json 数据
 
-![](/images/learning_demo/Hou.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/learning_demo/Hou.png)
 
 在调试的过程中，当程序出现问题了，需要学会判断问题出现在哪里，可以从前端与后端分别考虑，确定问题出现的具体位置到底是前端的处理，还是后端的处理上，这里可以使用 [postman](https://www.getpostman.com/) 来进行后端的接口测试，测试是否能返回需要的数据类型。
 
