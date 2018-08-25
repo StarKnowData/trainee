@@ -49,7 +49,7 @@
 
 1. virtualbox 中该虚拟机的网络连接方式选择 **桥接网卡**（当然还有其他方式）以获得分配的 ip 地址，此时实际主机可以和虚拟机进行互 ping
 2. Oneinstack 中执行 `./vhost.sh` 文件创建虚拟主机
-3. 修改 hosts 文件，我用的是 Windows 操作系统，文件在 \Windows\System32\drivers\etc ，添加虚拟主机的域名以及其绑定的 ip 地址，比如：我的虚拟机获得的 IP 是192.168.0.101，虚拟主机的 domain 是 www.orangelcan.com，则将这组对应添加到 hosts 文件中
+3. 修改 hosts 文件，我用的是 Windows 操作系统，文件在 \Windows\System32\drivers\etc ，添加虚拟主机的域名以及其绑定的 ip 地址，比如：我的虚拟机获得的 IP 是192.168.0.101，虚拟主机的 domain 是 www.orangelcan.com ，则将这组对应添加到 hosts 文件中
 
 	`192.168.0.101 www.orangetest.com`
 
