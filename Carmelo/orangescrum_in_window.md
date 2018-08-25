@@ -1,6 +1,6 @@
 # orangescrum in windows
 
-###环境
+### 环境
 
 - Apache 2.4.33
 - PHP 5.6.36
@@ -10,13 +10,13 @@
 
 ### 最终结果
 
-![](/images/orangescrum/win.gif)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/orangescrum/win.gif)
 
 ### 步骤
 
 **1.创建虚拟主机**
 
-我把文件放在了虚拟机的 C:\orangescrum 中，根目录在 C:\orangescrum\app\webroot。
+我把文件放在了虚拟机的 C:\orangescrum 中，根目录在 C:\orangescrum\app\webroot 。
 
 1.1 在实际主机上的 hosts 文件中加上虚拟主机域名与 ip 地址
 
