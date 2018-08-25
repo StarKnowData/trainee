@@ -4,7 +4,7 @@
 
 - [安装及要求](#安装及要求)
 - [安装总结](#安装总结)
-- [orangescrum_in_Windows](/orangescrum_in_window.md)
+- [orangescrum_in_Windows](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/orangescrum_in_window.md)
 
 
 ### 安装及要求
@@ -31,7 +31,7 @@
 
 安装完成后的样子：
 
-![](/images/orangescrum/get.gif)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/orangescrum/get.gif)
 
 ### 安装总结
 
@@ -55,7 +55,7 @@
 
 4. 完成前面三步后，就可以通过 Windows 上的浏览器访问虚拟机的 ip 及虚拟主机了。如图：
 
-![](/images/orangescrum/orangescrum_01.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/orangescrum/orangescrum_01.png)
 
 按提示给予相应文件写的权限后就可以看到安装提示了
 
@@ -64,7 +64,7 @@
     chmod -R 0777 tmp/*
     chmod -R 0777 webroot/*
 
-![](/images/orangescrum/orangescrum_02.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/orangescrum/orangescrum_02.png)
 
 
 > 一个 ip 可以绑定多个域名，但是一个域名只能绑定一个 ip 。
@@ -74,7 +74,7 @@
 
 访问：虚拟机 ip/phpMyAdmin  	
 
-![](/images/orangescrum/phpMyAdmin.gif)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/orangescrum/phpMyAdmin.gif)
 
 #### 3. 查看错误日志分析存在的错误问题
 
@@ -90,7 +90,7 @@
 
 网页中出现如下问题：`database connection`
 
-![](/images/orangescrum/database.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/orangescrum/database.png)
 
 我们可以进入到 /app/Config 中的 tmp 目录下的文件寻找错误原因，我们进入 /tmp 后看到有文件 error.log，存放着数据库连接错误的原因。我们可以看到出现了 `PDOException: SQLSTATE[HY000]: General error: 3065` 此类错误。
 
@@ -100,25 +100,25 @@
 
 出现了图片损坏情况如图：
 
-![](/images/orangescrum/Imagelost.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/orangescrum/Imagelost.png)
 
 通过 chrmoe 的检查可见，css 等文件找不到，这可能是因为根目录位置不对所致的。
 
-![](/images/orangescrum/Imagelost_1.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/orangescrum/Imagelost_1.png)
 
 后来我们发现 css 等文件在 /app/webroot 目录下，因此依次把在 Nginx 和 Apache 配置中的站点的根目录修改至 /app/webroot，图片问题得到解决。
 
-![](/images/orangescrum/web1.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/orangescrum/web1.png)
 
 nginx配置图略
 
 但是 sign up下边的破损图片仍然未解决，从 Chrome 看出地址这个地方出错了 `@SUB_FOLDER`
 
-![](/images/orangescrum/web3.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/orangescrum/web3.png)
 
 我们再来看看该工作目录下的错误日志文件，在 `app/tmp/logs` 目录下的 `error.log` 中有记录。
 
-![](/images/orangescrum/web4.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/orangescrum/web4.png)
 
 我们看到了问题就是出在 `@SUB_FOLDER` 上，查阅了相关资料后，找到了修改的方法，`@SUB_FOLDER` 出现在 `app/Config/constants.php` 中。我们对 `constants.php` 做出以下修改即可解决问题。
 
@@ -129,11 +129,11 @@ nginx配置图略
     service httpd status
     service Nginx status
 
-![](/images/orangescrum/web.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/orangescrum/web.png)
 
 看到问题出现所在，文件夹不存在，很明显根目录写错了。那么我们把它写对之后，在重启下 Nginx 和 Apache ，好的问题解决了。
 
-![](/images/orangescrum/Imagefound.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/orangescrum/Imagefound.png)
 
 #### 6. lnmp 一键安装配置环境下 mysql 5.7 的严格模式的关闭
 
