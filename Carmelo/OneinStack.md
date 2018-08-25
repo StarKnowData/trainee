@@ -28,27 +28,27 @@
 
 **2.** 获得权限，运行 **install.sh** 文件进行安装自己所需要的环境
 
-![](https://github.com/UncleLincoln/trainee/tree/master/Carmelo/images/oneinstack/OneinStack_first.gif)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/oneinstack/OneinStack_first.gif)
 
 **3. 安装中**
 
-![](https://github.com/UncleLincoln/trainee/tree/master/Carmelo/images/oneinstack/OneinStack_installing.gif)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/oneinstack/OneinStack_installing.gif)
 
 **4. 安装完成**
 
-![](https://github.com/UncleLincoln/trainee/tree/master/Carmelo/images/oneinstack/OneinStack_finsh.gif)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/oneinstack/OneinStack_finsh.gif)
 
 ### 卸载
 
 执行 **uninstall.sh** 文件即可
 
-![](https://github.com/UncleLincoln/trainee/tree/master/Carmelo/images/oneinstack/OneinStack_uninstall.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/oneinstack/OneinStack_uninstall.png)
 
 ### 版本更新
 
 执行 **upgrade.sh** 文件即可
 
-![](https://github.com/UncleLincoln/trainee/tree/master/Carmelo/images/oneinstack/OneinStack_update.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/oneinstack/OneinStack_update.png)
 
 ### 备份
 
@@ -60,7 +60,7 @@
 
 1. 修改 /etc/host 文件，添加一个虚拟主机的对应域名绑定一个 ip（虚拟机的 IP 地址）
 2. 执行 `vhost.sh` 文件，按提示操作,会提示启动 Apache 等服务器服务，启动后出现以下画面表示配置成功
-![](https://github.com/UncleLincoln/trainee/tree/master/Carmelo/images/oneinstack/OneinStack_Run_Vhost.png)
+![](https://github.com/UncleLincoln/trainee/blob/master/Carmelo/images/oneinstack/OneinStack_Run_Vhost.png)
 3. 如果在 windows 上想要访问该虚拟主机的话，建议virtualbox的该虚拟机的网络配置改为**桥接网络**，在虚拟机中通过 `ifconfig` 可以查看分配给虚拟机的 IP 地址，再修改本地的 hosts 文件即可通过浏览器访问虚拟主机。
     
 
