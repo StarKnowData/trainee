@@ -32,7 +32,7 @@ VirtualBox 是一款开源虚拟机软件。
 
 **准备材料：**
 
-- [indows7](https://msdn.itellyou.cn/) 镜像文件
+- [Windows7](https://msdn.itellyou.cn/) 镜像文件
 - 安装好的 VitualBox
 
 **步骤：**
