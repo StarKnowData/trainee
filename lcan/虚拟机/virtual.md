@@ -11,11 +11,11 @@
 3. 选择要导入的 OVA 文件
 4. 按提示操作即可
 
-![6.gif](attachments\82d7931c.gif)
+![](https://github.com/BuErTech/trainee/blob/master/lcan/%E8%99%9A%E6%8B%9F%E6%9C%BA/attachments/82d7931c.gif)
 
 ## 登陆
 
 - 初始用户：lcan
 - 初始密码：123456
 
-![7.gif](attachments\7ee12e23.gif)
+![](https://github.com/BuErTech/trainee/blob/master/lcan/%E8%99%9A%E6%8B%9F%E6%9C%BA/attachments/7ee12e23.gif)
