@@ -158,8 +158,8 @@ dir="ltr">
       <div class="navbar-inner">
         <div class="container">
           <div class="center-nav">
-            <form action="/login?next=%2Fnbconvert%2Fscript%2FPython181103--019.ipynb%3Fdownload%3Dtrue" method="post" class="navbar-form pull-left">
-              <input type="hidden" name="_xsrf" value="2|4638be0a|4f91a00b5fd08ca349cea808771f050b|1541297632"/>
+            <form action="/login?next=%2Ffiles%2FPython181103--019.ipynb%3Fdownload%3D1" method="post" class="navbar-form pull-left">
+              <input type="hidden" name="_xsrf" value="2|aca77be2|036fa2fab9dbe53eef55e4baba370a70|1541166860"/>
               
                 <label for="password_input"><strong>Password or token:</strong></label>
               
@@ -215,8 +215,8 @@ http://localhost:8888/?token=c8de56fa... :: /Users/you/notebooks
         <h3>Setup a Password</h3>
         <p> You can also setup a password by entering your token and a new password
         on the fields below:</p>
-        <form action="/login?next=%2Fnbconvert%2Fscript%2FPython181103--019.ipynb%3Fdownload%3Dtrue" method="post" class="">
-                <input type="hidden" name="_xsrf" value="2|4638be0a|4f91a00b5fd08ca349cea808771f050b|1541297632"/>
+        <form action="/login?next=%2Ffiles%2FPython181103--019.ipynb%3Fdownload%3D1" method="post" class="">
+                <input type="hidden" name="_xsrf" value="2|aca77be2|036fa2fab9dbe53eef55e4baba370a70|1541166860"/>
           <div class="form-group">
             <label for="token_input"><h4>Token</h4></label>
             <input type="password" name="password" id="token_input" class="form-control">
