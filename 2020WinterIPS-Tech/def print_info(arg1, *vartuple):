@@ -1,0 +1,11 @@
+def print_info(arg1, *vartuple):  
+	print("输出: ")  
+	print(arg1)  
+	for var in vartuple:  
+		print (var)  
+		return  
+
+
+		
+print_info(10)  
+print_info(70, 60, 50)  

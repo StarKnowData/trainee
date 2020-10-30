@@ -1,0 +1,52 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Oct 12 19:48:18 2019
+
+@author: lw
+"""
+
+#石头剪子布  小程序三局两胜制
+from random import randint
+
+user_win = 0
+compunter_win = 0
+deuce = 0
+#index代表标号 value代表值
+for index,value in enumerate(range(3)):
+
+    user_num = input('请输入数字')
+    user_num = int (user_num)
+    compunter_num = randint(0,2)
+    print('玩家数字{}'.format(user_num))
+    print('电脑数字{}'.format(compunter_num))
+    print('差值{}'.format(user_num - compunter_num))
+    
+    if user_num - compunter_num == -1 or user_num - compunter_num==2:
+        print ('第{}局玩家胜'.format(index+1))
+        user_win += 1
+    elif user_num - compunter_num == 0:
+        print ('第{}局平局'.format(index+1))
+        deuce += 1
+    else:
+        print ('第{}局电脑胜'.format(index+1))
+        compunter_win += 1
+        print ('--------第{}局结束-------'.format(index+1))
+    
+    if compunter_num == 2 :
+        print ('电脑胜')
+        break
+    if user_num == 2 :
+        print ('玩家胜')
+        break
+    else:
+        #平3局 平1局 一胜一负  平2局 赢一局
+        if deuce == 1 and compunter_win - user_win ==0 and index == 2:
+            print ('平局')
+        elif deuce == 3:
+            print ('平局')
+        elif deuce == 2 and index == 2:
+            if  compunter_win - user_win == 1:
+                print ('电脑胜')
+            else:
+                print ('玩家胜')

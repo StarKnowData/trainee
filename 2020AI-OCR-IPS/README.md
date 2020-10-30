@@ -1,0 +1,3 @@
+# 2020 IPS OCR
+
+AI,OCR的项目
