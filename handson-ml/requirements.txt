@@ -56,7 +56,7 @@ pyglet==1.3.2
 ##### Extra packages (optional)
 
 # Nice utility to diff Jupyter Notebooks.
-nbdime==1.1.0
+nbdime==1.1.1
 
 # May be useful with Pandas for complex "where" clauses (e.g., Pandas
 # tutorial).
